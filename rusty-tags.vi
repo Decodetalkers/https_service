@@ -1491,6 +1491,7 @@ Tx	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sy
 Tx	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/list.rs	/^pub(crate) struct Tx<T> {$/;"	s
 UCred	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/ucred.rs	/^impl UCred {$/;"	c
 UCred	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/ucred.rs	/^pub struct UCred {$/;"	s
+UNKOWNURL	/home/cht/Rust/listen/src/main.rs	/^static UNKOWNURL: &str = include_str!("hello.html");$/;"	v
 UdpSocket	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/udp.rs	/^    impl AsRawFd for UdpSocket {$/;"	c	module:sys
 UdpSocket	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/udp.rs	/^    impl AsRawSocket for UdpSocket {$/;"	c	module:sys
 UdpSocket	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/udp.rs	/^impl TryFrom<std::net::UdpSocket> for UdpSocket {$/;"	c
@@ -1743,8 +1744,6 @@ as_ref	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/sr
 as_usize	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/ready.rs	/^    pub(crate) fn as_usize(self) -> usize {$/;"	P	implementation:Ready
 as_usize	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/oneshot.rs	/^    fn as_usize(self) -> usize {$/;"	P	implementation:State
 as_usize	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    pub(crate) const fn as_usize(self) -> usize {$/;"	P	implementation:Address
-ascii_to_char	/home/cht/Rust/listen/src/main.rs	/^fn ascii_to_char(code: u8) -> char {$/;"	f
-ascii_to_string	/home/cht/Rust/listen/src/main.rs	/^fn ascii_to_string(code: Vec<u8>) -> String {$/;"	f
 assert_at_most_num_polls	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/loom_basic_scheduler.rs	/^fn assert_at_most_num_polls(rt: Arc<Runtime>, at_most_polls: usize) {$/;"	f
 assert_clean	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/linked_list.rs	/^    macro_rules! assert_clean {$/;"	M	module:tests
 assert_dropped	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/task.rs	/^    fn assert_dropped(&self) {$/;"	P	implementation:AssertDropHandle

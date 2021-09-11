@@ -1,13 +1,14 @@
 use tokio::{
     io::{
         self,
-        //AsyncReadExt,
+        AsyncReadExt,
         AsyncWriteExt
     },
     net::TcpListener,
+    net::TcpStream,
     select,
 };
-
+static UNKOWNURL: &str = include_str!("hello.html");
 #[tokio::main]
 async fn main() -> io::Result<()> {
     let listener = TcpListener::bind("127.0.0.1:8000").await?;
@@ -15,32 +16,27 @@ async fn main() -> io::Result<()> {
         let (client,_)= listener.accept().await?;
         //let (eread, ewrite)= client.into_split();
         let (mut eread, mut ewrite) = client.into_split();
-        let mut recept: Vec<u8> = vec![];
+        let mut recept = [0; 1024];
         let o2e = tokio::spawn(async move {
-            println!("hello");
-            //eread.read(&mut recept).await?;
-            io::copy(&mut eread, &mut recept).await?;
-            println!("{}",ascii_to_string(recept));
-            ewrite.write(b"sss").await
-            //ewrite.write(String::from_utf8_lossy(&buffer[..]).as_bytes()).await
-            //io::copy(&mut eread, &mut recept).await
-            //println!("{}",ascii_to_string(recept));
+            //println!("hello");
+            eread.read(&mut recept).await?;
+            println!("Request: {}", String::from_utf8_lossy(&recept[..]));
+            //let contents = include_str!("hello.html");
+            //let response = format!(
+            //    "HTTP/1.1 200 OK\r\nContent-Length: {}\r\n\r\n{}",
+            //    contents.len(),
+            //    contents
+            //);
+            let mut server = TcpStream::connect("www.baidu.com:80").await?;
+            let mut turn = [0; 1000000];
+            server.write(&recept).await?;
+            server.read(&mut turn).await?;
+            println!("Retrun: {}", String::from_utf8_lossy(&turn[..]));
+            ewrite.write(&turn).await?;
+            ewrite.flush().await
         });
         select! {
             _ = o2e => println!("finish"),
         }
     }
 }
-#[allow(dead_code)]
-fn ascii_to_char(code: u8) -> char {
-    std::char::from_u32(code as u32).unwrap_or('_')
-}
-#[allow(dead_code)]
-fn ascii_to_string(code: Vec<u8>) -> String {
-    let mut url = String::new();
-    for count in code {
-        url.push(ascii_to_char(count));
-    }
-    url
-}
-
