@@ -20,6 +20,14 @@ AcquireError	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.1
 AcquireError	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/batch_semaphore.rs	/^pub struct AcquireError(());$/;"	s
 Address	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^impl Address {$/;"	c
 Address	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^pub(crate) struct Address(usize);$/;"	s
+AfterFragment	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    AfterFragment,$/;"	e	enum:Position
+AfterHost	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    AfterHost,$/;"	e	enum:Position
+AfterPassword	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    AfterPassword,$/;"	e	enum:Position
+AfterPath	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    AfterPath,$/;"	e	enum:Position
+AfterPort	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    AfterPort,$/;"	e	enum:Position
+AfterQuery	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    AfterQuery,$/;"	e	enum:Position
+AfterScheme	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    AfterScheme,$/;"	e	enum:Position
+AfterUsername	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    AfterUsername,$/;"	e	enum:Position
 AllWaiters	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/notify.rs	/^    AllWaiters,$/;"	e	enum:NotificationType
 Allocator	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^impl<T: Entry> Allocator<T> {$/;"	c
 Allocator	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^impl<T> fmt::Debug for Allocator<T> {$/;"	c
@@ -117,6 +125,14 @@ BasicScheduler	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1
 BasicScheduler	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/basic_scheduler.rs	/^pub(crate) struct BasicScheduler<P: Park> {$/;"	s
 BatchTaskIter	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/queue.rs	/^        impl<'a, T: 'static> Iterator for BatchTaskIter<'a, T> {$/;"	c	method:Local::push_overflow
 BatchTaskIter	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/queue.rs	/^        struct BatchTaskIter<'a, T: 'static> {$/;"	s	method:Local::push_overflow
+BeforeFragment	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    BeforeFragment,$/;"	e	enum:Position
+BeforeHost	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    BeforeHost,$/;"	e	enum:Position
+BeforePassword	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    BeforePassword,$/;"	e	enum:Position
+BeforePath	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    BeforePath,$/;"	e	enum:Position
+BeforePort	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    BeforePort,$/;"	e	enum:Position
+BeforeQuery	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    BeforeQuery,$/;"	e	enum:Position
+BeforeScheme	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    BeforeScheme,$/;"	e	enum:Position
+BeforeUsername	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    BeforeUsername,$/;"	e	enum:Position
 Block	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/block.rs	/^impl<T> Block<T> {$/;"	c
 Block	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/block.rs	/^pub(crate) struct Block<T> {$/;"	s
 BlockedFuture	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/loom_basic_scheduler.rs	/^impl Future for BlockedFuture {$/;"	c
@@ -170,6 +186,7 @@ Busy	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/
 Busy	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/blocking.rs	/^    Busy(sys::Blocking<(io::Result<usize>, Buf, T)>),$/;"	e	enum:State
 Byte	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/windows/named_pipe.rs	/^    Byte,$/;"	e	enum:PipeMode
 COUNTER	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/loom/std/mod.rs	/^    static COUNTER: AtomicU32 = AtomicU32::new(1);$/;"	v	module:rand
+COUNTER	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs	/^        static COUNTER: AtomicUsize = AtomicUsize::new(0);$/;"	v	method:Origin::new_opaque
 CURRENT	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/task.rs	/^static CURRENT: TryLock<Option<Runtime>> = TryLock::new(None);$/;"	v
 CachePadded	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/entry.rs	/^struct CachePadded<T>(T);$/;"	s
 CachePadded	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/pad.rs	/^impl<T: fmt::Debug> fmt::Debug for CachePadded<T> {$/;"	c
@@ -273,6 +290,7 @@ Context	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/s
 Context	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/worker.rs	/^impl Context {$/;"	c
 Context	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/worker.rs	/^struct Context {$/;"	s
 Context	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/task/local.rs	/^struct Context {$/;"	s
+Context	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^pub enum Context {$/;"	g
 Copy	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/copy.rs	/^impl<R, W> Future for Copy<'_, R, W>$/;"	c
 Copy	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/copy.rs	/^struct Copy<'a, R: ?Sized, W: ?Sized> {$/;"	s
 CopyBidirectional	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/copy_bidirectional.rs	/^impl<'a, A, B> Future for CopyBidirectional<'a, A, B>$/;"	c
@@ -313,6 +331,8 @@ Direction	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0
 Direction	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/mod.rs	/^impl Direction {$/;"	c
 DoNothing	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/state.rs	/^    DoNothing,$/;"	e	enum:TransitionToNotifiedByRef
 DoNothing	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/state.rs	/^    DoNothing,$/;"	e	enum:TransitionToNotifiedByVal
+Domain	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^    Domain(S),$/;"	e	enum:Host
+Domain	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^    Domain,$/;"	e	enum:HostInternal
 Done	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/future/maybe_done.rs	/^    Done(Fut::Output),$/;"	e	enum:MaybeDone
 Done	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/copy_bidirectional.rs	/^    Done(u64),$/;"	e	enum:TransferState
 Done	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/mod.rs	/^    Done(ExitStatus),$/;"	e	enum:FusedChild
@@ -374,6 +394,7 @@ Entry	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src
 Entry	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/linked_list.rs	/^    unsafe impl<'a> Link for &'a Entry {$/;"	c	module:tests
 Entry	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^pub(crate) trait Entry: Default {$/;"	i
 EntryList	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/entry.rs	/^pub(super) type EntryList = crate::util::linked_list::LinkedList<TimerShared, TimerShared>;$/;"	t
+Err	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    type Err = ParseError;$/;"	t	implementation:Url
 Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/mod.rs	/^    type Error = io::Error;$/;"	t	implementation:Driver
 Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/tcp/listener.rs	/^    type Error = io::Error;$/;"	t	implementation:TcpListener
 Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/tcp/stream.rs	/^    type Error = io::Error;$/;"	t	implementation:TcpStream
@@ -400,10 +421,12 @@ Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src
 Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/error.rs	/^impl error::Error for Error {}$/;"	c
 Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/error.rs	/^impl fmt::Display for Error {$/;"	c
 Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/error.rs	/^pub struct Error(Kind);$/;"	s
+Error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    type Error = ParseError;$/;"	t	implementation:Url
 EventId	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/registry.rs	/^pub(crate) type EventId = usize;$/;"	t
 EventInfo	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/registry.rs	/^impl Default for EventInfo {$/;"	c
 EventInfo	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/registry.rs	/^pub(crate) struct EventInfo {$/;"	s
 Expiration	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/wheel/level.rs	/^pub(crate) struct Expiration {$/;"	s
+F	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^impl<F: FnMut(char) -> bool> Pattern for F {$/;"	c
 Failed	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/state.rs	/^    Failed,$/;"	e	enum:TransitionToRunning
 FastRand	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/rand.rs	/^impl FastRand {$/;"	c
 FastRand	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/rand.rs	/^pub(crate) struct FastRand {$/;"	s
@@ -418,8 +441,10 @@ File	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/
 File	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/file.rs	/^impl std::os::windows::io::AsRawHandle for File {$/;"	c
 File	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/file.rs	/^impl std::os::windows::io::FromRawHandle for File {$/;"	c
 File	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/file.rs	/^pub struct File {$/;"	s
+File	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    File,$/;"	e	enum:SchemeType
 FillBuf	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/fill_buf.rs	/^impl<'a, R: AsyncBufRead + ?Sized + Unpin> Future for FillBuf<'a, R> {$/;"	c
 Finished	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/core.rs	/^    Finished(super::Result<T::Output>),$/;"	e	enum:Stage
+Finished	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    type Finished = &'a mut Url;$/;"	t	implementation:UrlQuery
 Flush	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/flush.rs	/^impl<A> Future for Flush<'_, A>$/;"	c
 Foo	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    impl Default for Foo {$/;"	c	module:test
 Foo	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    impl Entry for Foo {$/;"	c	module:test
@@ -480,6 +505,13 @@ Header	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/sr
 Header	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/core.rs	/^pub(crate) struct Header {$/;"	s
 Header	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/core.rs	/^unsafe impl Send for Header {}$/;"	c
 Header	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/core.rs	/^unsafe impl Sync for Header {}$/;"	c
+Host	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^impl Host<String> {$/;"	c
+Host	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^impl<'a> Host<&'a str> {$/;"	c
+Host	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^impl<S, T> PartialEq<Host<T>> for Host<S>$/;"	c
+Host	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^impl<S: AsRef<str>> fmt::Display for Host<S> {$/;"	c
+Host	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^pub enum Host<S = String> {$/;"	g
+HostInternal	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^impl From<Host<String>> for HostInternal {$/;"	c
+HostInternal	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^pub(crate) enum HostInternal {$/;"	g
 INIT	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/windows/sys.rs	/^    static INIT: Once = Once::new();$/;"	v	function:global_init
 Idle	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/file.rs	/^    Idle(Option<Buf>),$/;"	e	enum:State
 Idle	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/read_dir.rs	/^    Idle(Option<std::fs::ReadDir>),$/;"	e	enum:State
@@ -531,6 +563,9 @@ InnerGuard	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.
 InnerGuard	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/basic_scheduler.rs	/^impl<P: Park> InnerGuard<'_, P> {$/;"	c
 InnerGuard	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/basic_scheduler.rs	/^struct InnerGuard<'a, P: Park> {$/;"	s
 InnerState	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/mod.rs	/^struct InnerState {$/;"	s
+Input	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^impl<'i> Input<'i> {$/;"	c
+Input	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^impl<'i> Iterator for Input<'i> {$/;"	c
+Input	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^pub struct Input<'i> {$/;"	s
 InsertError	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/error.rs	/^pub(crate) enum InsertError {$/;"	g
 Instant	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/instant.rs	/^impl From<Instant> for std::time::Instant {$/;"	c
 Instant	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/instant.rs	/^impl From<std::time::Instant> for Instant {$/;"	c
@@ -554,7 +589,12 @@ InternalStream	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1
 Interval	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/interval.rs	/^impl Interval {$/;"	c
 Interval	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/interval.rs	/^pub struct Interval {$/;"	s
 Invalid	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/error.rs	/^    Invalid = 3,$/;"	e	enum:Kind
+Ipv4	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^    Ipv4(Ipv4Addr),$/;"	e	enum:Host
+Ipv4	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^    Ipv4(Ipv4Addr),$/;"	e	enum:HostInternal
+Ipv6	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^    Ipv6(Ipv6Addr),$/;"	e	enum:Host
+Ipv6	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^    Ipv6(Ipv6Addr),$/;"	e	enum:HostInternal
 Item	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/queue.rs	/^            type Item = task::Notified<T>;$/;"	t	implementation:Local::push_overflow::BatchTaskIter
+Item	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    type Item = char;$/;"	t	implementation:Input
 Iter	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/addr.rs	/^        type Iter: Iterator<Item = SocketAddr> + Send + 'static;$/;"	t	interface:sealed::ToSocketAddrsPriv
 Iter	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/addr.rs	/^    type Iter = T::Iter;$/;"	t
 Iter	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/addr.rs	/^    type Iter = std::option::IntoIter<SocketAddr>;$/;"	t	implementation:SocketAddr
@@ -698,12 +738,14 @@ No	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/ru
 NoPanic	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/task_combinations.rs	/^    NoPanic,$/;"	e	enum:CombiOutput
 NoPanic	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/task_combinations.rs	/^    NoPanic,$/;"	e	enum:CombiTask
 NoPermits	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/batch_semaphore.rs	/^    NoPermits,$/;"	e	enum:TryAcquireError
+None	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^    None,$/;"	e	enum:HostInternal
 NoopSchedule	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/blocking/schedule.rs	/^impl task::Schedule for NoopSchedule {$/;"	c
 NoopSchedule	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/blocking/schedule.rs	/^pub(crate) struct NoopSchedule;$/;"	s
 NotAborted	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/task_combinations.rs	/^    NotAborted = 0,$/;"	e	enum:CombiAbort
 NotDefinedHere	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/doc/mod.rs	/^pub enum NotDefinedHere {}$/;"	g
 NotEntered	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/enter.rs	/^    NotEntered,$/;"	e	enum:EnterContext
 NotPolled	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/task_combinations.rs	/^    NotPolled,$/;"	e	enum:CombiJoinInterest
+NotSpecial	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    NotSpecial,$/;"	e	enum:SchemeType
 NotificationType	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/notify.rs	/^enum NotificationType {$/;"	g
 Notified	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/harness.rs	/^    Notified,$/;"	e	enum:PollFuture
 Notified	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/mod.rs	/^impl<S: 'static> Notified<S> {$/;"	c
@@ -742,11 +784,15 @@ OnceCell	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/
 OnceCell	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/once_cell.rs	/^unsafe impl<T: Sync + Send> Sync for OnceCell<T> {}$/;"	c
 OneWaiter	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/notify.rs	/^    OneWaiter,$/;"	e	enum:NotificationType
 Op	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/linked_list.rs	/^        enum Op {$/;"	g	function:tests::run_fuzz
+Opaque	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs	/^    Opaque(OpaqueOrigin),$/;"	e	enum:Origin
+OpaqueOrigin	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs	/^pub struct OpaqueOrigin(usize);$/;"	s
 OpenOptions	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/open_options.rs	/^impl Default for OpenOptions {$/;"	c
 OpenOptions	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/open_options.rs	/^impl From<StdOpenOptions> for OpenOptions {$/;"	c
 OpenOptions	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/open_options.rs	/^impl OpenOptions {$/;"	c
 OpenOptions	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/open_options.rs	/^pub struct OpenOptions(StdOpenOptions);$/;"	s
 Operation	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/file.rs	/^enum Operation {$/;"	g
+Origin	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs	/^impl Origin {$/;"	c
+Origin	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs	/^pub enum Origin {$/;"	g
 OrphanQueue	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/unix/orphan.rs	/^pub(crate) trait OrphanQueue<T> {$/;"	i
 OrphanQueueImpl	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/unix/orphan.rs	/^impl<T> OrphanQueueImpl<T> {$/;"	c
 OrphanQueueImpl	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/unix/orphan.rs	/^pub(crate) struct OrphanQueueImpl<T> {$/;"	s
@@ -815,6 +861,7 @@ Output	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/sr
 Output	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/instant.rs	/^    type Output = Duration;$/;"	t	implementation:Instant
 Output	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/instant.rs	/^    type Output = Instant;$/;"	t	implementation:Instant
 Output	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/timeout.rs	/^    type Output = Result<T::Output, Elapsed>;$/;"	t
+Output	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    type Output = str;$/;"	t	implementation:Url
 OwnedMutexGuard	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mutex.rs	/^impl<T: ?Sized + fmt::Debug> fmt::Debug for OwnedMutexGuard<T> {$/;"	c
 OwnedMutexGuard	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mutex.rs	/^impl<T: ?Sized + fmt::Display> fmt::Display for OwnedMutexGuard<T> {$/;"	c
 OwnedMutexGuard	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mutex.rs	/^impl<T: ?Sized> Deref for OwnedMutexGuard<T> {$/;"	c
@@ -905,6 +952,18 @@ Parker	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/sr
 Parker	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/park.rs	/^impl Park for Parker {$/;"	c
 Parker	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/park.rs	/^impl Parker {$/;"	c
 Parker	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/park.rs	/^pub(crate) struct Parker {$/;"	s
+ParseError	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^impl Error for ParseError {}$/;"	c
+ParseError	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^impl From<::idna::Errors> for ParseError {$/;"	c
+ParseOptions	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl<'a> ParseOptions<'a> {$/;"	c
+ParseOptions	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^pub struct ParseOptions<'a> {$/;"	s
+ParseResult	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^pub type ParseResult<T> = Result<T, ParseError>;$/;"	t
+Parser	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^impl<'a> Parser<'a> {$/;"	c
+Parser	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^pub struct Parser<'a> {$/;"	s
+PathSegmentSetter	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    PathSegmentSetter,$/;"	e	enum:Context
+PathSegmentsMut	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs	/^impl<'a> Drop for PathSegmentsMut<'a> {$/;"	c
+PathSegmentsMut	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs	/^impl<'a> PathSegmentsMut<'a> {$/;"	c
+PathSegmentsMut	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs	/^pub struct PathSegmentsMut<'a> {$/;"	s
+Pattern	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^pub trait Pattern {$/;"	i
 Pending	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/read_dir.rs	/^    Pending(JoinHandle<(Option<io::Result<std::fs::DirEntry>>, std::fs::ReadDir)>),$/;"	e	enum:State
 Pending	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/buf_reader.rs	/^    Pending,$/;"	e	enum:SeekState
 Pending	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/buf_writer.rs	/^    Pending,$/;"	e	enum:SeekState
@@ -948,9 +1007,14 @@ PollFn	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/sr
 PollFuture	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/harness.rs	/^enum PollFuture {$/;"	g
 Polled	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/task_combinations.rs	/^    Polled,$/;"	e	enum:CombiJoinInterest
 Pop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/linked_list.rs	/^            Pop,$/;"	e	enum:tests::run_fuzz::Op
+Position	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^pub enum Position {$/;"	g
 Push	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/linked_list.rs	/^            Push,$/;"	e	enum:tests::run_fuzz::Op
 R	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/async_buf_read_ext.rs	/^impl<R: AsyncBufRead + ?Sized> AsyncBufReadExt for R {}$/;"	c
 R	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/async_read_ext.rs	/^impl<R: AsyncRead + ?Sized> AsyncReadExt for R {}$/;"	c
+Range	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl RangeArg for Range<u32> {$/;"	c
+RangeArg	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^trait RangeArg {$/;"	i
+RangeFrom	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl RangeArg for RangeFrom<u32> {$/;"	c
+RangeTo	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl RangeArg for RangeTo<u32> {$/;"	c
 RawHandle	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/doc/os.rs	/^        pub type RawHandle = crate::doc::NotDefinedHere;$/;"	t	module:windows::io
 RawTask	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/raw.rs	/^impl Clone for RawTask {$/;"	c
 RawTask	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/raw.rs	/^impl Copy for RawTask {}$/;"	c
@@ -1163,6 +1227,8 @@ ScheduledIo	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11
 ScheduledIo	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/scheduled_io.rs	/^pub(crate) struct ScheduledIo {$/;"	s
 ScheduledIo	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/scheduled_io.rs	/^unsafe impl Send for ScheduledIo {}$/;"	c
 ScheduledIo	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/scheduled_io.rs	/^unsafe impl Sync for ScheduledIo {}$/;"	c
+SchemeType	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^impl SchemeType {$/;"	c
+SchemeType	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^pub enum SchemeType {$/;"	g
 ScopedKey	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/macros/scoped_tls.rs	/^impl<T> ScopedKey<T> {$/;"	c
 ScopedKey	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/macros/scoped_tls.rs	/^pub(crate) struct ScopedKey<T> {$/;"	s
 ScopedKey	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/macros/scoped_tls.rs	/^unsafe impl<T> Sync for ScopedKey<T> {}$/;"	c
@@ -1219,6 +1285,7 @@ SetError	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/
 SetError	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/once_cell.rs	/^impl<T> SetError<T> {$/;"	c
 SetError	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/once_cell.rs	/^impl<T> fmt::Display for SetError<T> {$/;"	c
 SetError	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/once_cell.rs	/^pub enum SetError<T> {$/;"	g
+Setter	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    Setter,$/;"	e	enum:Context
 Shared	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/basic_scheduler.rs	/^impl Wake for Shared {$/;"	c
 Shared	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/basic_scheduler.rs	/^struct Shared {$/;"	s
 Shared	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/blocking/pool.rs	/^struct Shared {$/;"	s
@@ -1282,6 +1349,7 @@ Spawner	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/s
 Spawner	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/mod.rs	/^impl Spawner {$/;"	c
 Spawner	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/mod.rs	/^impl fmt::Debug for Spawner {$/;"	c
 Spawner	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/mod.rs	/^pub(crate) struct Spawner {$/;"	s
+SpecialNotFile	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    SpecialNotFile,$/;"	e	enum:SchemeType
 Split	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/split.rs	/^impl<R> Split<R>$/;"	c
 SplitByUtf8BoundaryIfWindows	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/stdio_common.rs	/^impl<W> SplitByUtf8BoundaryIfWindows<W> {$/;"	c
 SplitByUtf8BoundaryIfWindows	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/stdio_common.rs	/^impl<W> crate::io::AsyncWrite for SplitByUtf8BoundaryIfWindows<W>$/;"	c
@@ -1327,6 +1395,7 @@ Steal	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src
 Steal	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/queue.rs	/^impl<T> Steal<T> {$/;"	c
 Steal	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/queue.rs	/^pub(super) struct Steal<T: 'static>(Arc<Inner<T>>);$/;"	s
 Storage	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/registry.rs	/^pub(crate) trait Storage {$/;"	i
+String	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl From<Url> for String {$/;"	c
 Submit	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/state.rs	/^    Submit,$/;"	e	enum:TransitionToNotifiedByRef
 Submit	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/state.rs	/^    Submit,$/;"	e	enum:TransitionToNotifiedByVal
 Success	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/state.rs	/^    Success,$/;"	e	enum:TransitionToRunning
@@ -1334,6 +1403,7 @@ SyncWrapper	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11
 SyncWrapper	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/sync_wrapper.rs	/^pub(crate) struct SyncWrapper<T> {$/;"	s
 SyncWrapper	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/sync_wrapper.rs	/^unsafe impl<T: Send> Send for SyncWrapper<T> {}$/;"	c
 SyncWrapper	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/sync_wrapper.rs	/^unsafe impl<T> Sync for SyncWrapper<T> {}$/;"	c
+SyntaxViolation	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^impl fmt::Display for SyntaxViolation {$/;"	c
 T	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/async_buf_read.rs	/^impl<T: ?Sized + AsyncBufRead + Unpin> AsyncBufRead for &mut T {$/;"	c
 T	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/async_read.rs	/^impl<T: ?Sized + AsyncRead + Unpin> AsyncRead for &mut T {$/;"	c
 T	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/async_seek.rs	/^impl<T: ?Sized + AsyncSeek + Unpin> AsyncSeek for &mut T {$/;"	c
@@ -1480,6 +1550,7 @@ TrySendError	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.1
 TrySendError	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/error.rs	/^impl<T> From<SendError<T>> for TrySendError<T> {$/;"	c
 TrySendError	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/error.rs	/^impl<T> fmt::Display for TrySendError<T> {$/;"	c
 TrySendError	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/error.rs	/^pub enum TrySendError<T> {$/;"	g
+Tuple	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs	/^    Tuple(String, Host<String>, u16),$/;"	e	enum:Origin
 Tx	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/chan.rs	/^impl<T, S: Semaphore> Tx<T, S> {$/;"	c
 Tx	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/chan.rs	/^impl<T, S: fmt::Debug> fmt::Debug for Tx<T, S> {$/;"	c
 Tx	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/chan.rs	/^impl<T, S> Clone for Tx<T, S> {$/;"	c
@@ -1491,7 +1562,6 @@ Tx	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sy
 Tx	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/list.rs	/^pub(crate) struct Tx<T> {$/;"	s
 UCred	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/ucred.rs	/^impl UCred {$/;"	c
 UCred	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/ucred.rs	/^pub struct UCred {$/;"	s
-UNKOWNURL	/home/cht/Rust/listen/src/main.rs	/^static UNKOWNURL: &str = include_str!("hello.html");$/;"	v
 UdpSocket	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/udp.rs	/^    impl AsRawFd for UdpSocket {$/;"	c	module:sys
 UdpSocket	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/udp.rs	/^    impl AsRawSocket for UdpSocket {$/;"	c	module:sys
 UdpSocket	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/udp.rs	/^impl TryFrom<std::net::UdpSocket> for UdpSocket {$/;"	c
@@ -1543,9 +1613,35 @@ Unparker	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/
 UnsafeCell	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/loom/std/unsafe_cell.rs	/^impl<T> UnsafeCell<T> {$/;"	c
 UnsafeCell	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/loom/std/unsafe_cell.rs	/^pub(crate) struct UnsafeCell<T>(std::cell::UnsafeCell<T>);$/;"	s
 UpdateResult	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/state.rs	/^type UpdateResult = Result<Snapshot, Snapshot>;$/;"	t
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl AsRef<str> for Url {$/;"	c
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl Eq for Url {}$/;"	c
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl Ord for Url {$/;"	c
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl PartialEq for Url {$/;"	c
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl PartialOrd for Url {$/;"	c
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl Url {$/;"	c
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl fmt::Debug for Url {$/;"	c
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl fmt::Display for Url {$/;"	c
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl hash::Hash for Url {$/;"	c
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl serde::Serialize for Url {$/;"	c
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl str::FromStr for Url {$/;"	c
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl<'a> TryFrom<&'a str> for Url {$/;"	c
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl<'de> serde::Deserialize<'de> for Url {$/;"	c
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^pub struct Url {$/;"	s
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^impl Index<Range<Position>> for Url {$/;"	c
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^impl Index<RangeFrom<Position>> for Url {$/;"	c
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^impl Index<RangeFull> for Url {$/;"	c
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^impl Index<RangeTo<Position>> for Url {$/;"	c
+Url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^impl Url {$/;"	c
+UrlParser	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    UrlParser,$/;"	e	enum:Context
+UrlQuery	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl<'a> Drop for UrlQuery<'a> {$/;"	c
+UrlQuery	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^impl<'a> form_urlencoded::Target for UrlQuery<'a> {$/;"	c
+UrlQuery	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^pub struct UrlQuery<'a> {$/;"	s
+UrlVisitor	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^        impl<'de> Visitor<'de> for UrlVisitor {$/;"	c	method:Url::deserialize
+UrlVisitor	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^        struct UrlVisitor;$/;"	s	method:Url::deserialize
 Value	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/block.rs	/^    Value(T),$/;"	e	enum:Read
 Value	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^impl<T> Value<T> {$/;"	c
 Value	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^struct Value<T> {$/;"	s
+Value	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^            type Value = Url;$/;"	t	implementation:Url::deserialize::UrlVisitor
 Values	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/block.rs	/^impl<T> Values<T> {$/;"	c
 Values	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/block.rs	/^impl<T> ops::Index<usize> for Values<T> {$/;"	c
 Values	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/block.rs	/^struct Values<T>([UnsafeCell<MaybeUninit<T>>; BLOCK_CAP]);$/;"	s
@@ -1679,6 +1775,9 @@ add_source	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.
 addr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/mod.rs	/^mod addr;$/;"	n
 addr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    fn addr(&self, slot: usize) -> Address {$/;"	P	implementation:Page
 advance	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/read_buf.rs	/^    pub fn advance(&mut self, n: usize) {$/;"	P	implementation:ReadBuf
+after_double_slash	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn after_double_slash($/;"	P	implementation:Parser
+after_first_slash	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs	/^    after_first_slash: usize,$/;"	m	struct:PathSegmentsMut
+after_path	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs	/^    after_path: String,$/;"	m	struct:PathSegmentsMut
 after_start	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/blocking/pool.rs	/^    after_start: Option<Callback>,$/;"	m	struct:Inner
 alarm	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/unix.rs	/^    pub fn alarm() -> Self {$/;"	P	implementation:SignalKind
 allocate	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    fn allocate(me: &Arc<Page<T>>) -> Option<(Address, Ref<T>)> {$/;"	P	implementation:Page
@@ -1694,6 +1793,7 @@ args	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/
 arrived	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/barrier.rs	/^    arrived: usize,$/;"	m	struct:BarrierState
 as_inner	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/read_dir.rs	/^    pub(super) fn as_inner(&self) -> &std::fs::DirEntry {$/;"	P	implementation:DirEntry
 as_inner_mut	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/open_options.rs	/^    pub(super) fn as_inner_mut(&mut self) -> &mut StdOpenOptions {$/;"	P	implementation:OpenOptions
+as_mut_string	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn as_mut_string(&mut self) -> &mut String {$/;"	P	implementation:UrlQuery
 as_pathname	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/socketaddr.rs	/^    pub fn as_pathname(&self) -> Option<&Path> {$/;"	P	implementation:SocketAddr
 as_raw	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/mod.rs	/^    fn as_raw(handle: &Task<S>) -> NonNull<Header> {$/;"	P	implementation:Task
 as_raw	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/batch_semaphore.rs	/^    fn as_raw(handle: &Self::Handle) -> NonNull<Waiter> {$/;"	P	implementation:Waiter
@@ -1741,12 +1841,19 @@ as_ref	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/sr
 as_ref	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/split.rs	/^    fn as_ref(&self) -> &UnixStream {$/;"	P	implementation:WriteHalf
 as_ref	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/split_owned.rs	/^    fn as_ref(&self) -> &UnixStream {$/;"	P	implementation:OwnedReadHalf
 as_ref	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/split_owned.rs	/^    fn as_ref(&self) -> &UnixStream {$/;"	P	implementation:OwnedWriteHalf
+as_ref	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn as_ref(&self) -> &str {$/;"	P	implementation:Url
+as_str	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn as_str(&self) -> &str {$/;"	P	implementation:Url
 as_usize	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/ready.rs	/^    pub(crate) fn as_usize(self) -> usize {$/;"	P	implementation:Ready
 as_usize	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/oneshot.rs	/^    fn as_usize(self) -> usize {$/;"	P	implementation:State
 as_usize	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    pub(crate) const fn as_usize(self) -> usize {$/;"	P	implementation:Address
+ascii_alpha	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^pub fn ascii_alpha(ch: char) -> bool {$/;"	f
+ascii_serialization	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs	/^    pub fn ascii_serialization(&self) -> String {$/;"	P	implementation:Origin
+ascii_tab_or_new_line	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^fn ascii_tab_or_new_line(ch: char) -> bool {$/;"	f
+assert	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^        macro_rules! assert {$/;"	M	method:Url::check_invariants
 assert_at_most_num_polls	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/loom_basic_scheduler.rs	/^fn assert_at_most_num_polls(rt: Arc<Runtime>, at_most_polls: usize) {$/;"	f
 assert_clean	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/linked_list.rs	/^    macro_rules! assert_clean {$/;"	M	module:tests
 assert_dropped	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/task.rs	/^    fn assert_dropped(&self) {$/;"	P	implementation:AssertDropHandle
+assert_eq	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^        macro_rules! assert_eq {$/;"	M	method:Url::check_invariants
 assert_not_dropped	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/task.rs	/^    fn assert_not_dropped(&self) {$/;"	P	implementation:AssertDropHandle
 assert_owner	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/list.rs	/^    pub(crate) fn assert_owner(&self, task: Notified<S>) -> LocalNotified<S> {$/;"	P	implementation:LocalOwnedTasks
 assert_owner	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/list.rs	/^    pub(crate) fn assert_owner(&self, task: Notified<S>) -> LocalNotified<S> {$/;"	P	implementation:OwnedTasks
@@ -1790,6 +1897,9 @@ available_permits	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/toki
 available_permits	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/semaphore.rs	/^    pub fn available_permits(&self) -> usize {$/;"	P	implementation:Semaphore
 b	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/copy_bidirectional.rs	/^    b: &'a mut B,$/;"	m	struct:CopyBidirectional
 b_to_a	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/copy_bidirectional.rs	/^    b_to_a: TransferState,$/;"	m	struct:CopyBidirectional
+base_url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    base_url: Option<&'a Url>,$/;"	m	struct:ParseOptions
+base_url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn base_url(mut self, new: Option<&'a Url>) -> Self {$/;"	P	implementation:ParseOptions
+base_url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub base_url: Option<&'a Url>,$/;"	m	struct:Parser
 basic	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/loom_queue.rs	/^fn basic() {$/;"	f
 basic_closing	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/tests/loom_semaphore_batch.rs	/^fn basic_closing() {$/;"	f
 basic_notification	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/tests/loom_atomic_waker.rs	/^fn basic_notification() {$/;"	f
@@ -1864,9 +1974,11 @@ buffer	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/sr
 bugeting	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/coop.rs	/^    fn bugeting() {$/;"	f	module:test
 build	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/builder.rs	/^    pub fn build(&mut self) -> io::Result<Runtime> {$/;"	P	implementation:Builder
 build_basic_runtime	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/builder.rs	/^    fn build_basic_runtime(&mut self) -> io::Result<Runtime> {$/;"	P	implementation:Builder
+byte_at	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn byte_at(&self, i: u32) -> u8 {$/;"	P	implementation:Url
 bytes	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/blocking.rs	/^    pub(crate) fn bytes(&self) -> &[u8] {$/;"	P	implementation:Buf
 c	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mutex.rs	/^    c: UnsafeCell<T>,$/;"	m	struct:Mutex
 c	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/rwlock.rs	/^    c: UnsafeCell<T>,$/;"	m	struct:RwLock
+c0_control_or_space	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^fn c0_control_or_space(ch: char) -> bool {$/;"	f
 cached	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    cached: [CachedPage<T>; NUM_PAGES],$/;"	m	struct:Slab
 cached_when	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/entry.rs	/^    cached_when: AtomicU64,$/;"	m	struct:TimerSharedPadded
 cached_when	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/entry.rs	/^    pub(super) fn cached_when(&self) -> u64 {$/;"	P	implementation:TimerShared
@@ -1878,6 +1990,7 @@ cancel	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/sr
 cancel_acquire_releases_permits	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/tests/semaphore_batch.rs	/^fn cancel_acquire_releases_permits() {$/;"	f
 cancel_task	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/harness.rs	/^fn cancel_task<T: Future>(stage: &CoreStage<T>) {$/;"	f
 cancelled	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/error.rs	/^    pub(crate) fn cancelled() -> JoinError {$/;"	P	implementation:JoinError
+cannot_be_a_base	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn cannot_be_a_base(&self) -> bool {$/;"	P	implementation:Url
 canonicalize	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/canonicalize.rs	/^pub async fn canonicalize(path: impl AsRef<Path>) -> io::Result<PathBuf> {$/;"	f
 canonicalize	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/mod.rs	/^mod canonicalize;$/;"	n
 cap	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/copy.rs	/^    cap: usize,$/;"	m	struct:CopyBuffer
@@ -1950,7 +2063,10 @@ channel	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/s
 channel	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/list.rs	/^pub(crate) fn channel<T>() -> (Tx<T>, Rx<T>) {$/;"	f
 channel	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/oneshot.rs	/^pub fn channel<T>() -> (Sender<T>, Receiver<T>) {$/;"	f
 channel	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/watch.rs	/^pub fn channel<T>(init: T) -> (Sender<T>, Receiver<T>) {$/;"	f
+char	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^impl Pattern for char {$/;"	c
+chars	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    chars: str::Chars<'i>,$/;"	m	struct:Input
 check_inner	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/unix/driver.rs	/^    pub(super) fn check_inner(&self) -> io::Result<()> {$/;"	P	implementation:Handle
+check_invariants	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn check_invariants(&self) -> Result<(), String> {$/;"	P	implementation:Url
 check_send	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mutex.rs	/^    fn check_send<T: Send>() {}$/;"	f	function:bounds
 check_send	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/rwlock.rs	/^    fn check_send<T: Send>() {}$/;"	f	function:bounds
 check_send_sync	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mutex.rs	/^    fn check_send_sync<T: Send + Sync>() {}$/;"	f	function:bounds
@@ -1964,6 +2080,7 @@ check_sync	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.
 check_unpin	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mutex.rs	/^    fn check_unpin<T: Unpin>() {}$/;"	f	function:bounds
 check_unpin	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/rwlock.rs	/^    fn check_unpin<T: Unpin>() {}$/;"	f	function:bounds
 check_unpin	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/semaphore.rs	/^    fn check_unpin<T: Unpin>() {}$/;"	f	function:bounds
+check_url_code_point	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn check_url_code_point(&self, c: char, input: &Input<'_>) {$/;"	P	implementation:Parser
 checked_add	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/instant.rs	/^    pub fn checked_add(&self, duration: Duration) -> Option<Instant> {$/;"	P	implementation:Instant
 checked_duration_since	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/instant.rs	/^    pub fn checked_duration_since(&self, earlier: Instant) -> Option<Duration> {$/;"	P	implementation:Instant
 checked_sub	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/instant.rs	/^    pub fn checked_sub(&self, duration: Duration) -> Option<Instant> {$/;"	P	implementation:Instant
@@ -1972,6 +2089,7 @@ child	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src
 child	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/windows.rs	/^    child: StdChild,$/;"	m	struct:Child
 child	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/unix.rs	/^    pub fn child() -> Self {$/;"	P	implementation:SignalKind
 clear	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/read_buf.rs	/^    pub fn clear(&mut self) {$/;"	P	implementation:ReadBuf
+clear	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs	/^    pub fn clear(&mut self) -> &mut Self {$/;"	P	implementation:PathSegmentsMut
 clear_entry	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/mod.rs	/^    pub(self) unsafe fn clear_entry(&self, entry: NonNull<TimerShared>) {$/;"	P	implementation:Handle
 clear_readiness	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/registration.rs	/^    pub(crate) fn clear_readiness(&self, event: ReadyEvent) {$/;"	P	implementation:Registration
 clear_readiness	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/scheduled_io.rs	/^    pub(crate) fn clear_readiness(&self, event: ReadyEvent) {$/;"	P	implementation:ScheduledIo
@@ -2028,6 +2146,7 @@ closing_bounded_rx	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tok
 closing_tx	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/tests/loom_mpsc.rs	/^fn closing_tx() {$/;"	f
 closing_unbounded_rx	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/tests/loom_mpsc.rs	/^fn closing_unbounded_rx() {$/;"	f
 closing_unbounded_tx	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/tests/loom_mpsc.rs	/^fn closing_unbounded_tx() {$/;"	f
+cmp	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn cmp(&self, other: &Self) -> cmp::Ordering {$/;"	P	implementation:Url
 cnt	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^        cnt: AtomicUsize,$/;"	m	struct:test::Foo
 collect	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/registry.rs	/^    async fn collect(mut rx: watch::Receiver<()>) -> Vec<()> {$/;"	f	module:tests
 collect_list	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/linked_list.rs	/^    fn collect_list(list: &mut LinkedList<&'_ Entry, <&'_ Entry as Link>::Target>) -> Vec<i32> {$/;"	f	module:tests
@@ -2074,6 +2193,7 @@ consume	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/s
 consume_value	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/oneshot.rs	/^    unsafe fn consume_value(&self) -> Option<T> {$/;"	P	implementation:Inner
 contains	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/ready.rs	/^    pub(crate) fn contains<T: Into<Self>>(self, other: T) -> bool {$/;"	P	implementation:Ready
 context	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/basic_scheduler.rs	/^        context: Option<Context>,$/;"	m	struct:enter::Guard
+context	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub context: Context,$/;"	m	struct:Parser
 convert_to_stdio	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/unix/mod.rs	/^pub(crate) fn convert_to_stdio(io: PollEvented<Pipe>) -> io::Result<Stdio> {$/;"	f
 convert_to_stdio	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/windows.rs	/^pub(crate) fn convert_to_stdio(io: PollEvented<NamedPipe>) -> io::Result<Stdio> {$/;"	f
 coop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/lib.rs	/^pub(crate) mod coop;$/;"	n
@@ -2089,6 +2209,7 @@ core	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/
 core	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/worker.rs	/^    core: AtomicCell<Core>,$/;"	m	struct:Worker
 core	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/worker.rs	/^    core: RefCell<Option<Box<Core>>>,$/;"	m	struct:Context
 count	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/macros/select.rs	/^macro_rules! count {$/;"	M
+count_matching	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn count_matching<F: Fn(char) -> bool>(&self, f: F) -> (u32, Self) {$/;"	P	implementation:Input
 create	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/dir_builder.rs	/^    pub async fn create(&self, path: impl AsRef<Path>) -> io::Result<()> {$/;"	P	implementation:DirBuilder
 create	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/file.rs	/^    pub async fn create(path: impl AsRef<Path>) -> io::Result<File> {$/;"	P	implementation:File
 create	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/open_options.rs	/^    pub fn create(&mut self, create: bool) -> &mut OpenOptions {$/;"	P	implementation:OpenOptions
@@ -2153,6 +2274,7 @@ default	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/s
 default	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^        fn default() -> Foo {$/;"	P	implementation:test::Foo
 default	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    fn default() -> CachedPage<T> {$/;"	P	implementation:CachedPage
 default	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    fn default() -> Page<T> {$/;"	P	implementation:Page
+default_port	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^pub fn default_port(scheme: &str) -> Option<u16> {$/;"	f
 default_timeout	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/windows/named_pipe.rs	/^    default_timeout: DWORD,$/;"	m	struct:ServerOptions
 delay	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/interval.rs	/^    delay: Pin<Box<Sleep>>,$/;"	m	struct:Interval
 deref	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/poll_evented.rs	/^    fn deref(&self) -> &E {$/;"	P	implementation:PollEvented
@@ -2196,6 +2318,8 @@ deref_mut	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0
 deregister	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/registration.rs	/^    pub(crate) fn deregister(&mut self, io: &mut impl Source) -> io::Result<()> {$/;"	P	implementation:Registration
 deregister	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/unix/mod.rs	/^    fn deregister(&mut self, registry: &mio::Registry) -> io::Result<()> {$/;"	P	implementation:Pipe
 deregister_source	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/mod.rs	/^    pub(super) fn deregister_source(&self, source: &mut impl mio::event::Source) -> io::Result<(/;"	P	implementation:Inner
+deserialize	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn deserialize<D>(deserializer: D) -> Result<Url, D::Error>$/;"	P	implementation:Url
+deserialize_internal	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn deserialize_internal<'de, D>(deserializer: D) -> Result<Self, D::Error>$/;"	P	implementation:Url
 desired_access	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/windows/named_pipe.rs	/^    desired_access: DWORD,$/;"	m	struct:ClientOptions
 did_wake	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/mod.rs	/^    did_wake: Arc<AtomicBool>,$/;"	m	struct:Driver
 did_wake	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/mod.rs	/^    did_wake: Arc<AtomicBool>,$/;"	m	struct:TimerUnpark
@@ -2210,6 +2334,9 @@ doc	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/l
 doc	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/windows/named_pipe.rs	/^mod doc {$/;"	n
 does_not_register_signal_if_queue_empty	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/unix/orphan.rs	/^    fn does_not_register_signal_if_queue_empty() {$/;"	f	module:test
 does_nothing_if_signal_could_not_be_registered	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/unix/orphan.rs	/^    fn does_nothing_if_signal_could_not_be_registered() {$/;"	f	module:test
+domain	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn domain(&self) -> Option<&str> {$/;"	P	implementation:Url
+domain_to_ascii	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn domain_to_ascii(domain: &str) -> String {$/;"	f
+domain_to_unicode	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn domain_to_unicode(domain: &str) -> String {$/;"	f
 downgrade	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/rwlock/owned_write_guard.rs	/^    pub fn downgrade(mut self) -> OwnedRwLockReadGuard<T> {$/;"	P	implementation:OwnedRwLockWriteGuard
 downgrade	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/rwlock/write_guard.rs	/^    pub fn downgrade(self) -> RwLockReadGuard<'a, T> {$/;"	P	implementation:RwLockWriteGuard
 downgrade	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/tests/loom_rwlock.rs	/^fn downgrade() {$/;"	f
@@ -2293,6 +2420,8 @@ drop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/
 drop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    fn drop(&mut self) {$/;"	P	implementation:Ref
 drop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/try_lock.rs	/^    fn drop(&mut self) {$/;"	P	implementation:LockGuard
 drop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/wake_list.rs	/^    fn drop(&mut self) {$/;"	P	implementation:WakeList
+drop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn drop(&mut self) {$/;"	P	implementation:UrlQuery
+drop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs	/^    fn drop(&mut self) {$/;"	P	implementation:PathSegmentsMut
 drop_arc_raw	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/wake.rs	/^unsafe fn drop_arc_raw<T: Wake>(data: *const ()) {$/;"	f
 drop_enqueues_orphan_if_wait_fails	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/unix/reap.rs	/^    fn drop_enqueues_orphan_if_wait_fails() {$/;"	f	module:test
 drop_future_or_output	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/core.rs	/^    pub(super) fn drop_future_or_output(&self) {$/;"	P	implementation:CoreStage
@@ -2320,6 +2449,8 @@ enable_all	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.
 enable_io	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/builder.rs	/^    enable_io: bool,$/;"	m	struct:Builder
 enable_time	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/builder.rs	/^    enable_time: bool,$/;"	m	struct:Builder
 encode_addr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/windows/named_pipe.rs	/^fn encode_addr(addr: impl AsRef<OsStr>) -> Box<[u16]> {$/;"	f
+encoding_override	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    encoding_override: EncodingOverride<'a>,$/;"	m	struct:ParseOptions
+encoding_override	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn encoding_override(mut self, new: EncodingOverride<'a>) -> Self {$/;"	P	implementation:ParseOptions
 end	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/windows/named_pipe.rs	/^    pub end: PipeEnd,$/;"	m	struct:PipeInfo
 ensure_capacity_for	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/blocking.rs	/^    pub(crate) fn ensure_capacity_for(&mut self, bytes: &ReadBuf<'_>) {$/;"	P	implementation:Buf
 enter	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/basic_scheduler.rs	/^fn enter<F, R, P>(scheduler: &mut Inner<P>, f: F) -> R$/;"	f
@@ -2334,6 +2465,8 @@ env_remove	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.
 envs	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/mod.rs	/^    pub fn envs<I, K, V>(&mut self, vars: I) -> &mut Command$/;"	P	implementation:Command
 eof	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/read_exact.rs	/^fn eof() -> io::Error {$/;"	f
 eq	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/once_cell.rs	/^    fn eq(&self, other: &OnceCell<T>) -> bool {$/;"	P	implementation:OnceCell
+eq	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^    fn eq(&self, other: &Host<T>) -> bool {$/;"	f
+eq	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn eq(&self, other: &Self) -> bool {$/;"	P	implementation:Url
 error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/platform.rs	/^    pub(crate) fn error() -> Ready {$/;"	f	module:sys
 error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/mod.rs	/^mod error;$/;"	n
 error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/broadcast.rs	/^pub mod error {$/;"	n
@@ -2350,9 +2483,12 @@ event_info	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.
 event_info	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/unix.rs	/^    fn event_info(&self, id: EventId) -> Option<&EventInfo> {$/;"	P	implementation:OsStorage
 event_info	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/windows/sys.rs	/^    fn event_info(&self, id: EventId) -> Option<&EventInfo> {$/;"	P	implementation:OsStorage
 events	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/mod.rs	/^    events: Option<mio::Events>,$/;"	m	struct:Driver
+expecting	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^            fn expecting(&self, formatter: &mut fmt::Formatter) -> fmt::Result {$/;"	P	implementation:Url::deserialize::UrlVisitor
+extend	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs	/^    pub fn extend<I>(&mut self, segments: I) -> &mut Self$/;"	P	implementation:PathSegmentsMut
 extend_expiration	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/entry.rs	/^    fn extend_expiration(&self, new_timestamp: u64) -> Result<(), ()> {$/;"	P	implementation:StateCell
 extend_expiration	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/entry.rs	/^    pub(super) fn extend_expiration(&self, t: u64) -> Result<(), ()> {$/;"	P	implementation:TimerShared
 extra	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/registry.rs	/^    extra: OsExtraData,$/;"	m	struct:Globals
+extract_path_filename	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^        fn extract_path_filename(s: &str) -> (&str, &str) {$/;"	f	method:Url::make_relative
 f	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/future/poll_fn.rs	/^    f: F,$/;"	m	struct:PollFn
 far_future	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/sleep.rs	/^    pub(crate) fn far_future() -> Sleep {$/;"	P	implementation:Sleep
 far_future	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/instant.rs	/^    pub(crate) fn far_future() -> Instant {$/;"	P	implementation:Instant
@@ -2363,13 +2499,18 @@ feature	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/s
 fetch_update	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/state.rs	/^    fn fetch_update<F>(&self, mut f: F) -> Result<Snapshot, Snapshot>$/;"	P	implementation:State
 fetch_update_action	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/state.rs	/^    fn fetch_update_action<F, T>(&self, mut f: F) -> T$/;"	P	implementation:State
 file	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/mod.rs	/^mod file;$/;"	n
+file_host	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn file_host(input: Input) -> ParseResult<(bool, String, Input)> {$/;"	P	implementation:Parser
 file_name	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/read_dir.rs	/^    pub fn file_name(&self) -> OsString {$/;"	P	implementation:DirEntry
 file_type	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/read_dir.rs	/^    pub async fn file_type(&self) -> io::Result<FileType> {$/;"	P	implementation:DirEntry
+file_url_segments_to_pathbuf	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^fn file_url_segments_to_pathbuf($/;"	f
+file_url_segments_to_pathbuf_windows	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^fn file_url_segments_to_pathbuf_windows($/;"	f
 fill_buf	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/fill_buf.rs	/^pub(crate) fn fill_buf<R>(reader: &mut R) -> FillBuf<'_, R>$/;"	f
 filled	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/read_buf.rs	/^    filled: usize,$/;"	m	struct:ReadBuf
 filled	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/read_buf.rs	/^    pub fn filled(&self) -> &[u8] {$/;"	P	implementation:ReadBuf
 filled_mut	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/read_buf.rs	/^    pub fn filled_mut(&mut self) -> &mut [u8] {$/;"	P	implementation:ReadBuf
 find_block	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/list.rs	/^    fn find_block(&self, slot_index: usize) -> NonNull<Block<T>> {$/;"	P	implementation:Tx
+finish	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn finish(mut self) -> &'a mut Url {$/;"	P	implementation:UrlQuery
+finish_sequence	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^    macro_rules! finish_sequence($/;"	M
 finish_string_read	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/read_line.rs	/^pub(super) fn finish_string_read($/;"	f
 fire	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/entry.rs	/^    pub(super) unsafe fn fire(self, completed_state: TimerResult) -> Option<Waker> {$/;"	P	implementation:TimerHandle
 fire	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/entry.rs	/^    unsafe fn fire(&self, result: TimerResult) -> Option<Waker> {$/;"	P	implementation:StateCell
@@ -2495,15 +2636,24 @@ fmt	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/u
 fmt	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    fn fmt(&self, fmt: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	P	implementation:Allocator
 fmt	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    fn fmt(&self, fmt: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	P	implementation:Ref
 fmt	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    fn fmt(&self, fmt: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	P	implementation:Slab
+fmt	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^    fn fmt(&self, f: &mut Formatter<'_>) -> fmt::Result {$/;"	P	implementation:Host
+fmt	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn fmt(&self, formatter: &mut fmt::Formatter) -> fmt::Result {$/;"	P	implementation:Url
+fmt	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn fmt(&self, formatter: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	P	implementation:Url
+fmt	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn fmt(&self, f: &mut Formatter<'_>) -> fmt::Result {$/;"	P	implementation:SyntaxViolation
 for_each	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/registry.rs	/^    fn for_each<'a, F>(&'a self, f: F)$/;"	P	implementation:Vec
 for_each	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/registry.rs	/^    fn for_each<'a, F>(&'a self, f: F)$/;"	P	interface:Storage
 for_each	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/unix.rs	/^    fn for_each<'a, F>(&'a self, f: F)$/;"	P	implementation:OsStorage
 for_each	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/windows/sys.rs	/^    fn for_each<'a, F>(&'a self, mut f: F)$/;"	P	implementation:OsStorage
 for_each	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    pub(crate) fn for_each(&mut self, mut f: impl FnMut(&T)) {$/;"	P	implementation:Slab
+for_setter	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn for_setter(serialization: String) -> Parser<'a> {$/;"	P	implementation:Parser
 forget	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/tcp/split_owned.rs	/^    pub fn forget(mut self) {$/;"	P	implementation:OwnedWriteHalf
 forget	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/split_owned.rs	/^    pub fn forget(mut self) {$/;"	P	implementation:OwnedWriteHalf
 forget	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/semaphore.rs	/^    pub fn forget(mut self) {$/;"	P	implementation:OwnedSemaphorePermit
 forget	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/semaphore.rs	/^    pub fn forget(mut self) {$/;"	P	implementation:SemaphorePermit
+fragment	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fragment: Option<String>,$/;"	m	struct:UrlQuery
+fragment	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn fragment(&self) -> Option<&str> {$/;"	P	implementation:Url
+fragment_only	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn fragment_only(mut self, base_url: &Url, mut input: Input<'_>) -> ParseResult<Url> {$/;"	P	implementation:Parser
+fragment_start	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fragment_start: Option<u32>, \/\/ Before '#', unlike Position::FragmentStart$/;"	m	struct:Url
 free_blocks	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/list.rs	/^    pub(super) unsafe fn free_blocks(&mut self) {$/;"	P	implementation:Rx
 free_head	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/list.rs	/^    free_head: NonNull<Block<T>>,$/;"	m	struct:Rx
 from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/file.rs	/^    fn from(std: StdFile) -> Self {$/;"	P	implementation:File
@@ -2524,6 +2674,12 @@ from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/
 from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/instant.rs	/^    fn from(time: Instant) -> std::time::Instant {$/;"	P	implementation:Instant
 from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/instant.rs	/^    fn from(time: std::time::Instant) -> Instant {$/;"	P	implementation:Instant
 from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/pad.rs	/^    fn from(t: T) -> Self {$/;"	P	implementation:CachePadded
+from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^    fn from(host: Host<String>) -> HostInternal {$/;"	P	implementation:HostInternal
+from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn from(value: Url) -> String {$/;"	P	implementation:String
+from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn from(_: ::idna::Errors) -> ParseError {$/;"	P	implementation:ParseError
+from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn from(s: &str) -> Self {$/;"	P	implementation:SchemeType
+from_directory_path	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn from_directory_path<P: AsRef<Path>>(path: P) -> Result<Url, ()> {$/;"	P	implementation:Url
+from_file_path	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn from_file_path<P: AsRef<Path>>(path: P) -> Result<Url, ()> {$/;"	P	implementation:Url
 from_mio	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/ready.rs	/^    pub(crate) fn from_mio(event: &mio::event::Event) -> Ready {$/;"	P	implementation:Ready
 from_raw	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/park/thread.rs	/^    unsafe fn from_raw(ptr: *const ()) -> Arc<Inner> {$/;"	P	implementation:Inner
 from_raw	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/harness.rs	/^    pub(super) unsafe fn from_raw(ptr: NonNull<Header>) -> Harness<T, S> {$/;"	f
@@ -2557,6 +2713,7 @@ from_std	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/
 from_std	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/mod.rs	/^    pub fn from_std(inner: std::process::ChildStdout) -> io::Result<Self> {$/;"	P	implementation:ChildStdout
 from_std	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/instant.rs	/^    pub fn from_std(std: std::time::Instant) -> Instant {$/;"	P	implementation:Instant
 from_std_stream	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/tcp/socket.rs	/^    pub fn from_std_stream(std_stream: std::net::TcpStream) -> TcpSocket {$/;"	P	implementation:TcpSocket
+from_str	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn from_str(input: &str) -> Result<Url, crate::ParseError> {$/;"	P	implementation:Url
 from_usize	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/ready.rs	/^    pub(crate) fn from_usize(val: usize) -> Ready {$/;"	P	implementation:Ready
 from_usize	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    pub(crate) fn from_usize(src: usize) -> Address {$/;"	P	implementation:Address
 func	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/blocking/task.rs	/^    func: Option<T>,$/;"	m	struct:BlockingTask
@@ -2574,6 +2731,7 @@ get	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/t
 get	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    fn get(&self, idx: usize) -> &T {$/;"	P	implementation:CachedPage
 get	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    pub(crate) fn get(&mut self, addr: Address) -> Option<&T> {$/;"	P	implementation:Slab
 get_cfg	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/builder.rs	/^    fn get_cfg(&self) -> driver::Cfg {$/;"	P	implementation:Builder
+get_file_host	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn get_file_host(input: Input<'_>) -> ParseResult<(Host<String>, Input<'_>)> {$/;"	P	implementation:Parser
 get_flags	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/windows/named_pipe.rs	/^    fn get_flags(&self) -> u32 {$/;"	P	implementation:ClientOptions
 get_inner	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/async_fd.rs	/^    pub fn get_inner(&self) -> &Inner {$/;"	P	implementation:AsyncFdReadyGuard
 get_inner	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/async_fd.rs	/^    pub fn get_inner(&self) -> &Inner {$/;"	P	implementation:AsyncFdReadyMutGuard
@@ -2650,7 +2808,11 @@ hangup	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/sr
 hard_link	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/hard_link.rs	/^pub async fn hard_link(src: impl AsRef<Path>, dst: impl AsRef<Path>) -> io::Result<()> {$/;"	f
 hard_link	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/mod.rs	/^mod hard_link;$/;"	n
 harness	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/mod.rs	/^mod harness;$/;"	n
+has_authority	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn has_authority(&self) -> bool {$/;"	P	implementation:Url
+has_host	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn has_host(&self) -> bool {$/;"	P	implementation:Url
 has_join_waker	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/state.rs	/^    pub(super) fn has_join_waker(self) -> bool {$/;"	P	implementation:Snapshot
+hash	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn hash<H>(&self, state: &mut H)$/;"	P	implementation:Url
+hash	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn hash(url: &Url) -> &str {$/;"	f
 head	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/queue.rs	/^            head: u32,$/;"	m	struct:Local::push_overflow::BatchTaskIter
 head	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/queue.rs	/^    head: AtomicU32,$/;"	m	struct:Inner
 head	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/inject.rs	/^    head: Option<NonNull<task::Header>>,$/;"	m	struct:Pointers
@@ -2663,6 +2825,15 @@ header	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/sr
 header	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/mod.rs	/^    fn header(&self) -> &Header {$/;"	P	implementation:Task
 header	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/raw.rs	/^    pub(super) fn header(&self) -> &Header {$/;"	P	implementation:RawTask
 header_lte_cache_line	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/core.rs	/^fn header_lte_cache_line() {$/;"	f
+host	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    host: HostInternal,$/;"	m	struct:Url
+host	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn host(&self) -> Option<Host<&str>> {$/;"	P	implementation:Url
+host	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^mod host;$/;"	n
+host	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn host(url: &Url) -> &str {$/;"	f
+host_end	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    host_end: u32,$/;"	m	struct:Url
+host_start	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    host_start: u32,$/;"	m	struct:Url
+host_str	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn host_str(&self) -> Option<&str> {$/;"	P	implementation:Url
+hostname	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn hostname(url: &Url) -> &str {$/;"	f
+href	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn href(url: &Url) -> &str {$/;"	f
 hup	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/platform.rs	/^    pub(crate) fn hup() -> Ready {$/;"	f	module:sys
 i	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/queue.rs	/^            i: u32,$/;"	m	struct:Local::push_overflow::BatchTaskIter
 id	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/future/trace.rs	/^    fn id(&self) -> Option<tracing::Id> {$/;"	P	implementation:Instrumented
@@ -2708,6 +2879,11 @@ increment_version	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/toki
 index	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/worker.rs	/^    index: usize,$/;"	m	struct:Worker
 index	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/block.rs	/^    fn index(&self, index: usize) -> &Self::Output {$/;"	P	implementation:Values
 index	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/list.rs	/^    index: usize,$/;"	m	struct:Rx
+index	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    fn index(&self, _: RangeFull) -> &str {$/;"	P	implementation:Url
+index	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    fn index(&self, position: Position) -> usize {$/;"	P	implementation:Url
+index	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    fn index(&self, range: Range<Position>) -> &str {$/;"	P	implementation:Url
+index	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    fn index(&self, range: RangeFrom<Position>) -> &str {$/;"	P	implementation:Url
+index	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/slicing.rs	/^    fn index(&self, range: RangeTo<Position>) -> &str {$/;"	P	implementation:Url
 index_for	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    fn index_for(&self, slot: *const Value<T>) -> usize {$/;"	P	implementation:Slots
 info	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/windows/named_pipe.rs	/^    pub fn info(&self) -> io::Result<PipeInfo> {$/;"	P	implementation:NamedPipeClient
 info	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/windows/named_pipe.rs	/^    pub fn info(&self) -> io::Result<PipeInfo> {$/;"	P	implementation:NamedPipeServer
@@ -2837,6 +3013,7 @@ into_std	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/
 into_std	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/listener.rs	/^    pub fn into_std(self) -> io::Result<std::os::unix::net::UnixListener> {$/;"	P	implementation:UnixListener
 into_std	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/stream.rs	/^    pub fn into_std(self) -> io::Result<std::os::unix::net::UnixStream> {$/;"	P	implementation:UnixStream
 into_std	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/instant.rs	/^    pub fn into_std(self) -> std::time::Instant {$/;"	P	implementation:Instant
+into_string	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn into_string(self) -> String {$/;"	P	implementation:Url
 into_task	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/mod.rs	/^    fn into_task(self) -> Task<S> {$/;"	P	implementation:UnownedTask
 into_waker	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/park/thread.rs	/^    pub(crate) fn into_waker(self) -> Waker {$/;"	P	implementation:UnparkThread
 into_waker	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/task/atomic_waker.rs	/^    fn into_waker(self) -> Waker {$/;"	P	implementation:Waker
@@ -2847,7 +3024,9 @@ io	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/li
 io	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/windows/named_pipe.rs	/^    io: PollEvented<mio_windows::NamedPipe>,$/;"	m	struct:NamedPipeClient
 io	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/windows/named_pipe.rs	/^    io: PollEvented<mio_windows::NamedPipe>,$/;"	m	struct:NamedPipeServer
 io	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/unix.rs	/^    pub fn io() -> Self {$/;"	P	implementation:SignalKind
+io_result	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^        fn io_result<T>(opt: Option<T>, message: &str) -> io::Result<T> {$/;"	f	method:Url::socket_addrs
 is_already_init_err	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/once_cell.rs	/^    pub fn is_already_init_err(&self) -> bool {$/;"	P	implementation:SetError
+is_ascii_hex_digit	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^fn is_ascii_hex_digit(c: char) -> bool {$/;"	f
 is_at_capacity	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/error.rs	/^    pub fn is_at_capacity(&self) -> bool {$/;"	P	implementation:Error
 is_at_index	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/block.rs	/^    pub(crate) fn is_at_index(&self, index: usize) -> bool {$/;"	P	implementation:Block
 is_cancelled	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/error.rs	/^    pub fn is_cancelled(&self) -> bool {$/;"	P	implementation:JoinError
@@ -2886,9 +3065,11 @@ is_empty	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/
 is_empty	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/task.rs	/^    fn is_empty(&self) -> bool {$/;"	P	implementation:Runtime
 is_empty	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/wheel/stack.rs	/^    pub(crate) fn is_empty(&self) -> bool {$/;"	P	implementation:Stack
 is_empty	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/linked_list.rs	/^    pub(crate) fn is_empty(&self) -> bool {$/;"	P	implementation:LinkedList
+is_empty	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn is_empty(&self) -> bool {$/;"	P	implementation:Input
 is_entered	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/enter.rs	/^    pub(crate) fn is_entered(self) -> bool {$/;"	P	implementation:EnterContext
 is_error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/platform.rs	/^    pub(crate) fn is_error(_: Ready) -> bool {$/;"	f	module:sys
 is_error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/platform.rs	/^    pub(crate) fn is_error(ready: Ready) -> bool {$/;"	f	module:sys
+is_file	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn is_file(&self) -> bool {$/;"	P	implementation:SchemeType
 is_final	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/block.rs	/^    pub(crate) fn is_final(&self) -> bool {$/;"	P	implementation:Block
 is_hup	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/platform.rs	/^    pub(crate) fn is_hup(_: Ready) -> bool {$/;"	f	module:sys
 is_hup	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/platform.rs	/^    pub(crate) fn is_hup(ready: Ready) -> bool {$/;"	f	module:sys
@@ -2901,6 +3082,7 @@ is_invalid	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.
 is_join_interested	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/state.rs	/^    pub(super) fn is_join_interested(self) -> bool {$/;"	P	implementation:Snapshot
 is_leader	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/barrier.rs	/^    pub fn is_leader(&self) -> bool {$/;"	P	implementation:BarrierWaitResult
 is_no_permits	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/batch_semaphore.rs	/^    pub(crate) fn is_no_permits(&self) -> bool {$/;"	P	implementation:TryAcquireError
+is_normalized_windows_drive_letter	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^fn is_normalized_windows_drive_letter(segment: &str) -> bool {$/;"	f
 is_notified	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/state.rs	/^    pub(super) fn is_notified(self) -> bool {$/;"	P	implementation:Snapshot
 is_pair_of	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/split.rs	/^    pub fn is_pair_of(&self, other: &ReadHalf<T>) -> bool {$/;"	P	implementation:WriteHalf
 is_pair_of	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/split.rs	/^    pub fn is_pair_of(&self, other: &WriteHalf<T>) -> bool {$/;"	P	implementation:ReadHalf
@@ -2920,7 +3102,9 @@ is_shutdown	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11
 is_shutdown	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/handle.rs	/^    pub(super) fn is_shutdown(&self) -> bool {$/;"	P	implementation:Handle
 is_shutdown	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/mod.rs	/^    pub(super) fn is_shutdown(&self) -> bool {$/;"	P	implementation:Inner
 is_shutdown	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/error.rs	/^    pub fn is_shutdown(&self) -> bool {$/;"	P	implementation:Error
+is_special	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn is_special(&self) -> bool {$/;"	P	implementation:SchemeType
 is_stealable	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/queue.rs	/^    pub(super) fn is_stealable(&self) -> bool {$/;"	P	implementation:Local
+is_tuple	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs	/^    pub fn is_tuple(&self) -> bool {$/;"	P	implementation:Origin
 is_tx_closed	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/block.rs	/^fn is_tx_closed(bits: usize) -> bool {$/;"	f
 is_tx_task_set	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/oneshot.rs	/^    fn is_tx_task_set(self) -> bool {$/;"	P	implementation:State
 is_unnamed	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/socketaddr.rs	/^    pub fn is_unnamed(&self) -> bool {$/;"	P	implementation:SocketAddr
@@ -2928,6 +3112,8 @@ is_unpin	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/
 is_unpin	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/batch_semaphore.rs	/^        fn is_unpin<T: Unpin>() {}$/;"	f	method:Acquire::project
 is_unpin	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/broadcast.rs	/^fn is_unpin<T: Unpin>() {}$/;"	f
 is_unpin	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/notify.rs	/^fn is_unpin<T: Unpin>() {}$/;"	f
+is_url_code_point	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^fn is_url_code_point(c: char) -> bool {$/;"	f
+is_windows_drive_letter	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^pub fn is_windows_drive_letter(segment: &str) -> bool {$/;"	f
 is_writable	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/interest.rs	/^    pub const fn is_writable(self) -> bool {$/;"	P	implementation:Interest
 is_writable	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/ready.rs	/^    pub fn is_writable(self) -> bool {$/;"	P	implementation:Ready
 is_write_closed	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/ready.rs	/^    pub fn is_write_closed(self) -> bool {$/;"	P	implementation:Ready
@@ -2947,6 +3133,7 @@ is_write_vectored	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/toki
 issue_3014	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    fn issue_3014() {$/;"	f	module:test
 join	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/macros/join.rs	/^macro_rules! join {$/;"	M
 join	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/mod.rs	/^mod join;$/;"	n
+join	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn join(&self, input: &str) -> Result<Url, crate::ParseError> {$/;"	P	implementation:Url
 join_handle_cancel_on_shutdown	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/loom_shutdown_join.rs	/^fn join_handle_cancel_on_shutdown() {$/;"	f
 join_multicast_v4	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/udp.rs	/^    pub fn join_multicast_v4(&self, multiaddr: Ipv4Addr, interface: Ipv4Addr) -> io::Result<()> /;"	P	implementation:UdpSocket
 join_multicast_v6	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/udp.rs	/^    pub fn join_multicast_v6(&self, multiaddr: &Ipv6Addr, interface: u32) -> io::Result<()> {$/;"	P	implementation:UdpSocket
@@ -2972,6 +3159,7 @@ kills_on_drop_if_specified	/home/cht/.cargo/registry/src/github.com-1ecc6299db9e
 kind	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/builder.rs	/^    kind: Kind,$/;"	m	struct:Builder
 last	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/linked_list.rs	/^    pub(crate) fn last(&self) -> Option<&L::Target> {$/;"	P	implementation:LinkedList
 last_exiting_thread	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/blocking/pool.rs	/^    last_exiting_thread: Option<thread::JoinHandle<()>>,$/;"	m	struct:Shared
+last_slash_can_be_removed	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn last_slash_can_be_removed(serialization: &str, path_start: usize) -> bool {$/;"	P	implementation:Parser
 last_write_err	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/file.rs	/^    last_write_err: Option<io::ErrorKind>,$/;"	m	struct:Inner
 launch	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/worker.rs	/^    pub(crate) fn launch(mut self) {$/;"	P	implementation:Launch
 least_significant	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/bit.rs	/^    pub(crate) const fn least_significant(width: u32) -> Pack {$/;"	P	implementation:Pack
@@ -3029,6 +3217,8 @@ lock	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/
 lock_owned	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mutex.rs	/^    pub async fn lock_owned(self: Arc<Self>) -> OwnedMutexGuard<T> {$/;"	P	implementation:Mutex
 locked	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/split.rs	/^    locked: AtomicBool,$/;"	m	struct:Inner
 locked	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/try_lock.rs	/^    locked: AtomicBool,$/;"	m	struct:TryLock
+log_violation	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn log_violation(&self, v: SyntaxViolation) {$/;"	P	implementation:Parser
+log_violation_if	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn log_violation_if(&self, v: SyntaxViolation, test: impl FnOnce() -> bool) {$/;"	P	implementation:Parser
 loom	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/lib.rs	/^mod loom;$/;"	n
 loom	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/macros/mod.rs	/^mod loom;$/;"	n
 ls	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/task_combinations.rs	/^        ls: Option<crate::task::LocalSet>,$/;"	m	struct:test_combination::Rt
@@ -3038,6 +3228,7 @@ maintenance	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11
 maintenance	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/worker.rs	/^    fn maintenance(&self, mut core: Box<Core>) -> Box<Core> {$/;"	P	implementation:Context
 make_fixed_size	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/queue.rs	/^fn make_fixed_size<T>(buffer: Box<[T]>) -> Box<[T; LOCAL_QUEUE_CAPACITY]> {$/;"	f
 make_future	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/mod.rs	/^async fn make_future(mut rx: Receiver<()>) -> Receiver<()> {$/;"	f
+make_relative	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn make_relative(&self, url: &Url) -> Option<String> {$/;"	P	implementation:Url
 map	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mutex.rs	/^    pub fn map<U, F>(mut this: Self, f: F) -> MappedMutexGuard<'a, U>$/;"	P	implementation:MappedMutexGuard
 map	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mutex.rs	/^    pub fn map<U, F>(mut this: Self, f: F) -> MappedMutexGuard<'a, U>$/;"	P	implementation:MutexGuard
 map	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/rwlock/owned_read_guard.rs	/^    pub fn map<F, V: ?Sized>(mut this: Self, f: F) -> OwnedRwLockReadGuard<T, V>$/;"	P	implementation:OwnedRwLockReadGuard
@@ -3088,6 +3279,7 @@ multicast_loop_v4	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/toki
 multicast_loop_v6	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/udp.rs	/^    pub fn multicast_loop_v6(&self) -> io::Result<bool> {$/;"	P	implementation:UdpSocket
 multicast_ttl_v4	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/udp.rs	/^    pub fn multicast_ttl_v4(&self) -> io::Result<u32> {$/;"	P	implementation:UdpSocket
 mut_load	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/oneshot.rs	/^fn mut_load(this: &mut AtomicUsize) -> usize {$/;"	f
+mutate	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn mutate<F: FnOnce(&mut Parser<'_>) -> R, R>(&mut self, f: F) -> R {$/;"	P	implementation:Url
 mutex	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/loom/std/mod.rs	/^mod mutex;$/;"	n
 mutex	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/park/thread.rs	/^    mutex: Mutex<()>,$/;"	m	struct:Inner
 mutex	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/park.rs	/^    mutex: Mutex<()>,$/;"	m	struct:Inner
@@ -3221,8 +3413,11 @@ new	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/u
 new	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/try_lock.rs	/^    pub(crate) fn new(data: T) -> TryLock<T> {$/;"	P	implementation:TryLock
 new	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/try_lock.rs	/^macro_rules! new {$/;"	M
 new	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/wake_list.rs	/^    pub(crate) fn new() -> Self {$/;"	P	implementation:WakeList
+new	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn new(input: &'i str) -> Self {$/;"	P	implementation:Input
+new	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs	/^pub fn new(url: &mut Url) -> PathSegmentsMut<'_> {$/;"	f
 new_current_thread	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/builder.rs	/^    pub fn new_current_thread() -> Builder {$/;"	P	implementation:Builder
 new_multi_thread	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/builder.rs	/^    pub fn new_multi_thread() -> Builder {$/;"	P	implementation:Builder
+new_opaque	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs	/^    pub fn new_opaque() -> Origin {$/;"	P	implementation:Origin
 new_receiver	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/broadcast.rs	/^fn new_receiver<T>(shared: Arc<Shared<T>>) -> Receiver<T> {$/;"	f
 new_timeout	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/sleep.rs	/^    pub(crate) fn new_timeout(deadline: Instant) -> Sleep {$/;"	P	implementation:Sleep
 new_v4	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/tcp/socket.rs	/^    pub fn new_v4() -> io::Result<TcpSocket> {$/;"	P	implementation:TcpSocket
@@ -3238,6 +3433,7 @@ next	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/
 next	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/block.rs	/^    next: AtomicPtr<Block<T>>,$/;"	m	struct:Block
 next	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/linked_list.rs	/^    next: Option<NonNull<T>>,$/;"	m	struct:PointersInner
 next	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    next: u32,$/;"	m	struct:Slot
+next	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn next(&mut self) -> Option<char> {$/;"	P	implementation:Input
 next_entry	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/read_dir.rs	/^    pub async fn next_entry(&mut self) -> io::Result<Option<DirEntry>> {$/;"	P	implementation:ReadDir
 next_expiration	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/wheel/level.rs	/^    pub(crate) fn next_expiration(&self, now: u64) -> Option<Expiration> {$/;"	P	implementation:Level
 next_expiration	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/wheel/mod.rs	/^    fn next_expiration(&self) -> Option<Expiration> {$/;"	P	implementation:Wheel
@@ -3250,6 +3446,7 @@ next_task	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0
 next_task	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/worker.rs	/^    fn next_task(&mut self, worker: &Worker) -> Option<Notified> {$/;"	P	implementation:Core
 next_task	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/task/local.rs	/^    fn next_task(&self) -> Option<task::LocalNotified<Arc<Shared>>> {$/;"	P	implementation:LocalSet
 next_timeout	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/interval.rs	/^    fn next_timeout(&self, timeout: Instant, now: Instant, period: Duration) -> Instant {$/;"	P	implementation:MissedTickBehavior
+next_utf8	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn next_utf8(&mut self) -> Option<(char, &'i str)> {$/;"	P	implementation:Input
 next_wake	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/mod.rs	/^    next_wake: Option<NonZeroU64>,$/;"	m	struct:InnerState
 no_compaction_if_page_still_in_use	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    fn no_compaction_if_page_still_in_use() {$/;"	f	module:test
 no_expirations_before	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/wheel/mod.rs	/^    fn no_expirations_before(&self, start_level: usize, before: u64) -> bool {$/;"	P	implementation:Wheel
@@ -3258,6 +3455,7 @@ no_kill_if_reaped	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/toki
 no_kill_on_drop_by_default	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/mod.rs	/^    fn no_kill_on_drop_by_default() {$/;"	f	module:test
 no_reap_if_no_signal_received	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/unix/orphan.rs	/^    fn no_reap_if_no_signal_received() {$/;"	f	module:test
 no_reap_if_signal_lock_held	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/unix/orphan.rs	/^    fn no_reap_if_signal_lock_held() {$/;"	f	module:test
+no_trim	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn no_trim(input: &'i str) -> Self {$/;"	P	implementation:Input
 node	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/batch_semaphore.rs	/^    node: Waiter,$/;"	m	struct:Acquire
 nodelay	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/tcp/stream.rs	/^    pub fn nodelay(&self) -> io::Result<bool> {$/;"	P	implementation:TcpStream
 noop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/unix/driver.rs	/^unsafe fn noop(_data: *const ()) {}$/;"	f
@@ -3311,6 +3509,7 @@ occupied	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/
 occupied_bit	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/wheel/level.rs	/^fn occupied_bit(slot: usize) -> u64 {$/;"	f
 offset	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/block.rs	/^pub(crate) fn offset(slot_index: usize) -> usize {$/;"	f
 ok	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/future/ready.rs	/^pub(crate) fn ok<T, E>(t: T) -> Ready<Result<T, E>> {$/;"	f
+old_after_path_position	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs	/^    old_after_path_position: u32,$/;"	m	struct:PathSegmentsMut
 on_drop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/task_combinations.rs	/^        on_drop: Option<oneshot::Sender<()>>,$/;"	m	struct:test_combination::FutWrapper
 on_drop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/task_combinations.rs	/^        on_drop: Option<oneshot::Sender<()>>,$/;"	m	struct:test_combination::Output
 on_first_poll	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/task_combinations.rs	/^        on_first_poll: Option<oneshot::Sender<()>>,$/;"	m	struct:test_combination::Signals
@@ -3331,6 +3530,10 @@ open_set_len_err	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio
 open_set_len_ok	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/file/tests.rs	/^fn open_set_len_ok() {$/;"	f
 open_with_security_attributes_raw	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/windows/named_pipe.rs	/^    pub unsafe fn open_with_security_attributes_raw($/;"	P	implementation:ClientOptions
 open_write	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/file/tests.rs	/^fn open_write() {$/;"	f
+options	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn options<'a>() -> ParseOptions<'a> {$/;"	P	implementation:Url
+origin	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn origin(&self) -> Origin {$/;"	P	implementation:Url
+origin	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^mod origin;$/;"	n
+origin	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn origin(url: &Url) -> String {$/;"	f
 orphan	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/unix/mod.rs	/^pub(crate) mod orphan;$/;"	n
 orphan_queue	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/unix/reap.rs	/^    orphan_queue: Q,$/;"	m	struct:Reaper
 os	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/doc/mod.rs	/^pub mod os;$/;"	n
@@ -3398,8 +3601,46 @@ park_timeout	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.1
 park_timeout	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/unix/driver.rs	/^    fn park_timeout(&mut self, duration: Duration) -> Result<(), Self::Error> {$/;"	P	implementation:Driver
 park_timeout	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/mod.rs	/^    fn park_timeout(&mut self, duration: Duration) -> Result<(), Self::Error> {$/;"	f
 parking_lot	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/loom/std/mod.rs	/^mod parking_lot;$/;"	n
+parse	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^    pub fn parse(input: &str) -> Result<Self, ParseError> {$/;"	P	implementation:Host
+parse	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn parse(input: &str) -> Result<Url, crate::ParseError> {$/;"	P	implementation:Url
+parse	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn parse(self, input: &str) -> Result<Url, crate::ParseError> {$/;"	P	implementation:ParseOptions
+parse_cannot_be_a_base_path	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn parse_cannot_be_a_base_path<'i>(&mut self, mut input: Input<'i>) -> Input<'i> {$/;"	P	implementation:Parser
+parse_file	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn parse_file($/;"	P	implementation:Parser
+parse_file_host	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn parse_file_host<'i>($/;"	P	implementation:Parser
+parse_fragment	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn parse_fragment(&mut self, mut input: Input<'_>) {$/;"	P	implementation:Parser
+parse_host	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn parse_host($/;"	P	implementation:Parser
+parse_host_and_port	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn parse_host_and_port<'i>($/;"	P	implementation:Parser
+parse_ipv4addr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^fn parse_ipv4addr(input: &str) -> ParseResult<Option<Ipv4Addr>> {$/;"	f
+parse_ipv4number	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^fn parse_ipv4number(mut input: &str) -> Result<Option<u32>, ()> {$/;"	f
+parse_ipv6addr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^fn parse_ipv6addr(input: &str) -> ParseResult<Ipv6Addr> {$/;"	f
+parse_non_special	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn parse_non_special($/;"	P	implementation:Parser
+parse_opaque	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^    pub fn parse_opaque(input: &str) -> Result<Self, ParseError> {$/;"	P	implementation:Host
+parse_path	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn parse_path<'i>($/;"	P	implementation:Parser
+parse_path_start	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn parse_path_start<'i>($/;"	P	implementation:Parser
+parse_port	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn parse_port<P>($/;"	P	implementation:Parser
+parse_query	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn parse_query<'i>($/;"	P	implementation:Parser
+parse_query_and_fragment	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn parse_query_and_fragment($/;"	P	implementation:Parser
+parse_relative	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn parse_relative($/;"	P	implementation:Parser
+parse_scheme	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn parse_scheme<'i>(&mut self, mut input: Input<'i>) -> Result<Input<'i>, ()> {$/;"	P	implementation:Parser
+parse_url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn parse_url(mut self, input: &str) -> ParseResult<Url> {$/;"	P	implementation:Parser
+parse_userinfo	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn parse_userinfo<'i>($/;"	P	implementation:Parser
+parse_with_params	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn parse_with_params<I, K, V>(input: &str, iter: I) -> Result<Url, crate::ParseError>$/;"	P	implementation:Url
+parse_with_scheme	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn parse_with_scheme(mut self, input: Input<'_>) -> ParseResult<Url> {$/;"	P	implementation:Parser
+parser	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^mod parser;$/;"	n
+partial_cmp	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn partial_cmp(&self, other: &Self) -> Option<cmp::Ordering> {$/;"	P	implementation:Url
 partial_read_set_len_ok	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/file/tests.rs	/^fn partial_read_set_len_ok() {$/;"	f
+password	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn password(&self) -> Option<&str> {$/;"	P	implementation:Url
+password	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn password(url: &Url) -> &str {$/;"	f
 path	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/read_dir.rs	/^    pub fn path(&self) -> PathBuf {$/;"	P	implementation:DirEntry
+path	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn path(&self) -> &str {$/;"	P	implementation:Url
+path_segments	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn path_segments(&self) -> Option<str::Split<'_, char>> {$/;"	P	implementation:Url
+path_segments	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^mod path_segments;$/;"	n
+path_segments_mut	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn path_segments_mut(&mut self) -> Result<PathSegmentsMut<'_>, ()> {$/;"	P	implementation:Url
+path_start	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    path_start: u32,             \/\/ Before initial '\/', if any$/;"	m	struct:Url
+path_starts_with_windows_drive_letter	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^fn path_starts_with_windows_drive_letter(s: &str) -> bool {$/;"	f
+path_to_file_url_segments	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^fn path_to_file_url_segments($/;"	f
+path_to_file_url_segments_windows	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^fn path_to_file_url_segments_windows($/;"	f
+pathname	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn pathname(url: &Url) -> &str {$/;"	f
 peek	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/tcp/split.rs	/^    pub async fn peek(&mut self, buf: &mut [u8]) -> io::Result<usize> {$/;"	P	implementation:ReadHalf
 peek	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/tcp/split_owned.rs	/^    pub async fn peek(&mut self, buf: &mut [u8]) -> io::Result<usize> {$/;"	P	implementation:OwnedReadHalf
 peek	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/tcp/stream.rs	/^    pub async fn peek(&self, buf: &mut [u8]) -> io::Result<usize> {$/;"	P	implementation:TcpStream
@@ -3719,8 +3960,15 @@ pop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/r
 pop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/inject.rs	/^    pub(crate) fn pop(&self) -> Option<task::Notified<T>> {$/;"	P	implementation:Inject
 pop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/list.rs	/^    pub(crate) fn pop(&mut self, tx: &Tx<T>) -> Option<block::Read<T>> {$/;"	P	implementation:Rx
 pop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/wheel/stack.rs	/^    pub(crate) fn pop(&mut self) -> Option<OwnedItem> {$/;"	P	implementation:Stack
+pop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs	/^    pub fn pop(&mut self) -> &mut Self {$/;"	P	implementation:PathSegmentsMut
 pop_back	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/linked_list.rs	/^    pub(crate) fn pop_back(&mut self) -> Option<L::Handle> {$/;"	P	implementation:LinkedList
 pop_front	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/vec_deque_cell.rs	/^    pub(crate) fn pop_front(&self) -> Option<T> {$/;"	P	implementation:VecDequeCell
+pop_if_empty	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs	/^    pub fn pop_if_empty(&mut self) -> &mut Self {$/;"	P	implementation:PathSegmentsMut
+pop_path	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn pop_path(&mut self, scheme_type: SchemeType, path_start: usize) {$/;"	P	implementation:Parser
+port	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    port: Option<u16>,$/;"	m	struct:Url
+port	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn port(&self) -> Option<u16> {$/;"	P	implementation:Url
+port	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn port(url: &Url) -> &str {$/;"	f
+port_or_known_default	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn port_or_known_default(&self) -> Option<u16> {$/;"	P	implementation:Url
 pos	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/file.rs	/^    pos: u64,$/;"	m	struct:Inner
 pos	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/blocking.rs	/^    pos: usize,$/;"	m	struct:Buf
 pos	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/copy.rs	/^    pos: usize,$/;"	m	struct:CopyBuffer
@@ -3740,6 +3988,7 @@ process_expiration	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tok
 project	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/batch_semaphore.rs	/^    fn project(self: Pin<&mut Self>) -> (Pin<&mut Waiter>, &Semaphore, u32, &mut bool) {$/;"	P	implementation:Acquire
 project	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/broadcast.rs	/^    fn project(self: Pin<&mut Self>) -> (&mut Receiver<T>, &UnsafeCell<Waiter>) {$/;"	P	implementation:Recv
 project	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/notify.rs	/^    fn project(self: Pin<&mut Self>) -> (&Notify, &mut State, &UnsafeCell<Waiter>) {$/;"	P	implementation:Notified
+protocol	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn protocol(url: &Url) -> &str {$/;"	f
 ptr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/vec_with_initialized.rs	/^    ptr: *const u8,$/;"	m	struct:ReadBufParts
 ptr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/raw.rs	/^    ptr: NonNull<Header>,$/;"	m	struct:RawTask
 ptr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/linked_list.rs	/^    fn ptr(r: &Pin<Box<Entry>>) -> NonNull<Entry> {$/;"	f	module:tests
@@ -3749,6 +3998,7 @@ push	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/
 push	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/list.rs	/^    pub(crate) fn push(&self, value: T) {$/;"	P	implementation:Tx
 push	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/wheel/stack.rs	/^    pub(crate) fn push(&mut self, entry: OwnedItem) {$/;"	P	implementation:Stack
 push	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/wake_list.rs	/^    pub(crate) fn push(&mut self, val: Waker) {$/;"	P	implementation:WakeList
+push	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs	/^    pub fn push(&mut self, segment: &str) -> &mut Self {$/;"	P	implementation:PathSegmentsMut
 push_all	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/linked_list.rs	/^    fn push_all<'a>($/;"	f	module:tests
 push_and_drain	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/linked_list.rs	/^    fn push_and_drain() {$/;"	f	module:tests
 push_back	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/queue.rs	/^    pub(super) fn push_back(&mut self, mut task: task::Notified<T>, inject: &Inject<T>) {$/;"	P	implementation:Local
@@ -3765,6 +4015,11 @@ push_overflow	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.
 push_pop_push_pop	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/linked_list.rs	/^    fn push_pop_push_pop() {$/;"	f	module:tests
 put_back_original_data	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/read_line.rs	/^fn put_back_original_data(output: &mut String, mut vector: Vec<u8>, num_bytes_read: usize) {$/;"	f
 put_slice	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/read_buf.rs	/^    pub fn put_slice(&mut self, buf: &[u8]) {$/;"	P	implementation:ReadBuf
+query	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn query(&self) -> Option<&str> {$/;"	P	implementation:Url
+query_encoding_override	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub query_encoding_override: EncodingOverride<'a>,$/;"	m	struct:Parser
+query_pairs	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn query_pairs(&self) -> form_urlencoded::Parse<'_> {$/;"	P	implementation:Url
+query_pairs_mut	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn query_pairs_mut(&mut self) -> form_urlencoded::Serializer<'_, UrlQuery<'_>> {$/;"	P	implementation:Url
+query_start	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    query_start: Option<u32>,    \/\/ Before '?', unlike Position::QueryStart$/;"	m	struct:Url
 queue	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/unix/orphan.rs	/^    queue: Mutex<Vec<T>>,$/;"	m	struct:OrphanQueueImpl
 queue	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/basic_scheduler.rs	/^    queue: Mutex<Option<VecDeque<RemoteMsg>>>,$/;"	m	struct:Shared
 queue	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/basic_scheduler.rs	/^    queue: VecDeque<task::Notified<Arc<Shared>>>,$/;"	m	struct:Tasks
@@ -3775,6 +4030,7 @@ queue	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src
 queue	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/task/local.rs	/^    queue: VecDequeCell<task::Notified<Arc<Shared>>>,$/;"	m	struct:Context
 queued	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/batch_semaphore.rs	/^    queued: bool,$/;"	m	struct:Acquire
 queued	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/broadcast.rs	/^    queued: bool,$/;"	m	struct:Waiter
+quirks	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^pub mod quirks;$/;"	n
 quit	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/unix.rs	/^    pub fn quit() -> Self {$/;"	P	implementation:SignalKind
 racy_shutdown	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/tests/loom_pool.rs	/^    fn racy_shutdown() {$/;"	f	module:group_a
 rand	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/loom/mocked.rs	/^pub(crate) mod rand {$/;"	n
@@ -3955,6 +4211,8 @@ reset	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src
 reset_future	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/tests/mod.rs	/^fn reset_future() {$/;"	f
 resources	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/mod.rs	/^    resources: Mutex<Option<Slab<ScheduledIo>>>,$/;"	m	struct:Inner
 resources	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/mod.rs	/^    resources: Option<Slab<ScheduledIo>>,$/;"	m	struct:Driver
+restore_after_path	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn restore_after_path(&mut self, old_after_path_position: u32, after_path: &str) {$/;"	P	implementation:Url
+restore_already_parsed_fragment	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn restore_already_parsed_fragment(&mut self, fragment: Option<String>) {$/;"	P	implementation:Url
 result	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/entry.rs	/^    result: UnsafeCell<TimerResult>,$/;"	m	struct:StateCell
 retain_ready	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/async_fd.rs	/^    pub fn retain_ready(&mut self) {$/;"	P	implementation:AsyncFdReadyGuard
 retain_ready	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/async_fd.rs	/^    pub fn retain_ready(&mut self) {$/;"	P	implementation:AsyncFdReadyMutGuard
@@ -4013,10 +4271,13 @@ schedule	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/
 schedule_local	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/worker.rs	/^    fn schedule_local(&self, core: &mut Core, task: Notified, is_yield: bool) {$/;"	P	implementation:Shared
 scheduled_io	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/mod.rs	/^mod scheduled_io;$/;"	n
 scheduler	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/basic_scheduler.rs	/^        scheduler: &'a mut Inner<P>,$/;"	m	struct:enter::Guard
+scheme	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn scheme(&self) -> &str {$/;"	P	implementation:Url
+scheme_end	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    scheme_end: u32,   \/\/ Before ':'$/;"	m	struct:Url
 scope	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/task/task_local.rs	/^    pub fn scope<F>(&'static self, value: T, f: F) -> TaskLocalFuture<T, F>$/;"	P	implementation:LocalKey
 scoped_thread_local	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/macros/scoped_tls.rs	/^macro_rules! scoped_thread_local {$/;"	M
 scoped_tls	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/macros/mod.rs	/^pub(crate) mod scoped_tls;$/;"	n
 sealed	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/addr.rs	/^pub(crate) mod sealed {$/;"	n
+search	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn search(url: &Url) -> &str {$/;"	f
 security_qos_flags	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/windows/named_pipe.rs	/^    pub fn security_qos_flags(&mut self, flags: u32) -> &mut Self {$/;"	P	implementation:ClientOptions
 security_qos_flags	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/windows/named_pipe.rs	/^    security_qos_flags: DWORD,$/;"	m	struct:ClientOptions
 seed	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/loom/mocked.rs	/^    pub(crate) fn seed() -> u64 {$/;"	f	module:rand
@@ -4051,6 +4312,10 @@ send_to	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/s
 send_to	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/datagram/socket.rs	/^    pub async fn send_to<P>(&self, buf: &[u8], target: P) -> io::Result<usize>$/;"	P	implementation:UnixDatagram
 send_to_addr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/udp.rs	/^    async fn send_to_addr(&self, buf: &[u8], target: SocketAddr) -> io::Result<usize> {$/;"	P	implementation:UdpSocket
 sender	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/unix.rs	/^    sender: UnixStream,$/;"	m	struct:OsExtraData
+serialization	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    serialization: String,$/;"	m	struct:Url
+serialization	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub serialization: String,$/;"	m	struct:Parser
+serialize	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>$/;"	P	implementation:Url
+serialize_internal	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn serialize_internal<S>(&self, serializer: S) -> Result<S::Ok, S::Error>$/;"	P	implementation:Url
 set	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/macros/scoped_tls.rs	/^    pub(crate) fn set<F, R>(&'static self, t: &T, f: F) -> R$/;"	P	implementation:ScopedKey
 set	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/atomic_cell.rs	/^    pub(super) fn set(&self, val: Box<T>) {$/;"	P	implementation:AtomicCell
 set	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/reusable_box.rs	/^    pub(crate) fn set<F>(&mut self, future: F)$/;"	P	implementation:ReusableBoxFuture
@@ -4066,6 +4331,14 @@ set_expiration	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1
 set_expiration	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/entry.rs	/^    pub(super) unsafe fn set_expiration(&self, t: u64) {$/;"	P	implementation:TimerShared
 set_expiration	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/entry.rs	/^    pub(super) unsafe fn set_expiration(&self, tick: u64) {$/;"	P	implementation:TimerHandle
 set_filled	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/read_buf.rs	/^    pub fn set_filled(&mut self, n: usize) {$/;"	P	implementation:ReadBuf
+set_fragment	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn set_fragment(&mut self, fragment: Option<&str>) {$/;"	P	implementation:Url
+set_hash	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn set_hash(url: &mut Url, new_hash: &str) {$/;"	f
+set_host	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn set_host(&mut self, host: Option<&str>) -> Result<(), ParseError> {$/;"	P	implementation:Url
+set_host	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn set_host(url: &mut Url, new_host: &str) -> Result<(), ()> {$/;"	f
+set_host_internal	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn set_host_internal(&mut self, host: Host<String>, opt_new_port: Option<Option<u16>>) {$/;"	P	implementation:Url
+set_hostname	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn set_hostname(url: &mut Url, new_hostname: &str) -> Result<(), ()> {$/;"	f
+set_href	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn set_href(url: &mut Url, value: &str) -> Result<(), ParseError> {$/;"	f
+set_ip_host	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn set_ip_host(&mut self, address: IpAddr) -> Result<(), ()> {$/;"	P	implementation:Url
 set_join_waker	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/harness.rs	/^fn set_join_waker($/;"	f
 set_join_waker	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/state.rs	/^    fn set_join_waker(&mut self) {$/;"	P	implementation:Snapshot
 set_join_waker	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/state.rs	/^    pub(super) fn set_join_waker(&self) -> UpdateResult {$/;"	P	implementation:State
@@ -4082,10 +4355,19 @@ set_nodelay	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11
 set_nonblocking	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/unix/mod.rs	/^fn set_nonblocking<T: AsRawFd>(fd: &mut T, nonblocking: bool) -> io::Result<()> {$/;"	f
 set_notified	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/state.rs	/^    fn set_notified(&mut self) {$/;"	P	implementation:Snapshot
 set_owner_id	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/core.rs	/^    pub(super) unsafe fn set_owner_id(&self, owner: u64) {$/;"	P	implementation:Header
+set_password	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn set_password(&mut self, password: Option<&str>) -> Result<(), ()> {$/;"	P	implementation:Url
+set_password	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn set_password(url: &mut Url, new_password: &str) -> Result<(), ()> {$/;"	f
+set_path	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn set_path(&mut self, mut path: &str) {$/;"	P	implementation:Url
+set_pathname	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn set_pathname(url: &mut Url, new_pathname: &str) {$/;"	f
 set_permissions	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/file.rs	/^    pub async fn set_permissions(&self, perm: Permissions) -> io::Result<()> {$/;"	P	implementation:File
 set_permissions	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/mod.rs	/^mod set_permissions;$/;"	n
 set_permissions	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/set_permissions.rs	/^pub async fn set_permissions(path: impl AsRef<Path>, perm: Permissions) -> io::Result<()> {$/;"	f
+set_port	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn set_port(&mut self, mut port: Option<u16>) -> Result<(), ()> {$/;"	P	implementation:Url
+set_port	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn set_port(url: &mut Url, new_port: &str) -> Result<(), ()> {$/;"	f
+set_port_internal	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn set_port_internal(&mut self, port: Option<u16>) {$/;"	P	implementation:Url
 set_prev	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/linked_list.rs	/^    fn set_prev(&mut self, value: Option<NonNull<T>>) {$/;"	P	implementation:Pointers
+set_protocol	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn set_protocol(url: &mut Url, mut new_protocol: &str) -> Result<(), ()> {$/;"	f
+set_query	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn set_query(&mut self, query: Option<&str>) {$/;"	P	implementation:Url
 set_readiness	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/scheduled_io.rs	/^    pub(super) fn set_readiness($/;"	P	implementation:ScheduledIo
 set_ready	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/block.rs	/^    fn set_ready(&self, slot: usize) {$/;"	P	implementation:Block
 set_recv_buffer_size	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/tcp/socket.rs	/^    pub fn set_recv_buffer_size(&self, size: u32) -> io::Result<()> {$/;"	P	implementation:TcpSocket
@@ -4094,6 +4376,8 @@ set_reuseport	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.
 set_running	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/state.rs	/^    fn set_running(&mut self) {$/;"	P	implementation:Snapshot
 set_rx_task	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/oneshot.rs	/^    fn set_rx_task(cell: &AtomicUsize) -> State {$/;"	P	implementation:State
 set_same_layout	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/reusable_box.rs	/^    unsafe fn set_same_layout<F>(&mut self, future: F)$/;"	P	implementation:ReusableBoxFuture
+set_scheme	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn set_scheme(&mut self, scheme: &str) -> Result<(), ()> {$/;"	P	implementation:Url
+set_search	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn set_search(url: &mut Url, new_search: &str) {$/;"	f
 set_send_buffer_size	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/tcp/socket.rs	/^    pub fn set_send_buffer_size(&self, size: u32) -> io::Result<()> {$/;"	P	implementation:TcpSocket
 set_stage	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/core.rs	/^    unsafe fn set_stage(&self, stage: Stage<T>) {$/;"	P	implementation:CoreStage
 set_state	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/notify.rs	/^fn set_state(data: usize, state: usize) -> usize {$/;"	f
@@ -4102,6 +4386,8 @@ set_ttl	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/s
 set_ttl	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/tcp/stream.rs	/^    pub fn set_ttl(&self, ttl: u32) -> io::Result<()> {$/;"	P	implementation:TcpStream
 set_ttl	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/udp.rs	/^    pub fn set_ttl(&self, ttl: u32) -> io::Result<()> {$/;"	P	implementation:UdpSocket
 set_tx_task	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/oneshot.rs	/^    fn set_tx_task(cell: &AtomicUsize) -> State {$/;"	P	implementation:State
+set_username	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn set_username(&mut self, username: &str) -> Result<(), ()> {$/;"	P	implementation:Url
+set_username	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn set_username(url: &mut Url, new_username: &str) -> Result<(), ()> {$/;"	f
 set_value	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/once_cell.rs	/^    fn set_value(&self, value: T, permit: SemaphorePermit<'_>) -> &T {$/;"	P	implementation:OnceCell
 set_waker	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/core.rs	/^    pub(super) unsafe fn set_waker(&self, waker: Option<Waker>) {$/;"	P	implementation:Trailer
 shared	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/doc/winapi.rs	/^pub mod shared {$/;"	n
@@ -4117,6 +4403,7 @@ shared	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/sr
 shared	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/watch.rs	/^    shared: Arc<Shared<T>>,$/;"	m	struct:Sender
 shared	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/task/local.rs	/^    shared: Arc<Shared>,$/;"	m	struct:Context
 shift	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/bit.rs	/^    shift: u32,$/;"	m	struct:Pack
+shorten_path	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn shorten_path(&mut self, scheme_type: SchemeType, path_start: usize) {$/;"	P	implementation:Parser
 shutdown	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/mod.rs	/^    fn shutdown(&mut self) {}$/;"	P	implementation:Driver
 shutdown	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/scheduled_io.rs	/^    pub(super) fn shutdown(&self) {$/;"	P	implementation:ScheduledIo
 shutdown	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/shutdown.rs	/^pub(super) fn shutdown<A>(a: &mut A) -> Shutdown<'_, A>$/;"	f
@@ -4165,12 +4452,19 @@ signal_enable_error_on_forbidden_input	/home/cht/.cargo/registry/src/github.com-
 signal_enable_error_on_invalid_input	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/unix.rs	/^    fn signal_enable_error_on_invalid_input() {$/;"	f	module:tests
 signal_handle	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/unix/driver.rs	/^    signal_handle: SignalHandle,$/;"	m	struct:Driver
 signal_with_handle	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/unix.rs	/^pub(crate) fn signal_with_handle($/;"	f
+simple_enum_error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^macro_rules! simple_enum_error {$/;"	M
 single_timer	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/tests/mod.rs	/^fn single_timer() {$/;"	f
 sleep	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/mod.rs	/^pub(super) mod sleep;$/;"	n
 sleep	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/sleep.rs	/^pub fn sleep(duration: Duration) -> Sleep {$/;"	f
 sleep_is_eager	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/tests/mod.rs	/^fn sleep_is_eager() {$/;"	f
 sleep_until	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/sleep.rs	/^pub fn sleep_until(deadline: Instant) -> Sleep {$/;"	f
 sleepers	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/idle.rs	/^    sleepers: Mutex<Vec<usize>>,$/;"	m	struct:Idle
+slice	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn slice<R>(&self, range: R) -> &str$/;"	P	implementation:Url
+slice_of	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn slice_of<'a>(&self, s: &'a str) -> &'a str {$/;"	P	implementation:Range
+slice_of	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn slice_of<'a>(&self, s: &'a str) -> &'a str {$/;"	P	implementation:RangeFrom
+slice_of	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn slice_of<'a>(&self, s: &'a str) -> &'a str {$/;"	P	implementation:RangeTo
+slice_of	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn slice_of<'a>(&self, s: &'a str) -> &'a str;$/;"	P	interface:RangeArg
+slicing	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^mod slicing;$/;"	n
 slot	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/broadcast.rs	/^    slot: RwLockReadGuard<'a, Slot<T>>,$/;"	m	struct:RecvGuard
 slot	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/task/task_local.rs	/^            slot: &'a mut Option<T>,$/;"	m	struct:TaskLocalFuture::with_task::Guard
 slot	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/wheel/level.rs	/^    slot: [EntryList; LEVEL_MULT],$/;"	m	struct:Level
@@ -4186,6 +4480,7 @@ smoke	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src
 smoke	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/tests/loom_watch.rs	/^fn smoke() {$/;"	f
 socket	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/tcp/mod.rs	/^pub(crate) mod socket;$/;"	n
 socket	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/datagram/mod.rs	/^pub(crate) mod socket;$/;"	n
+socket_addrs	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn socket_addrs($/;"	P	implementation:Url
 socketaddr	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/mod.rs	/^mod socketaddr;$/;"	n
 spawn	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/mod.rs	/^    pub fn spawn(&mut self) -> io::Result<Child> {$/;"	P	implementation:Command
 spawn	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/basic_scheduler.rs	/^    pub(crate) fn spawn<F>(&self, future: F) -> JoinHandle<F::Output>$/;"	P	implementation:Spawner
@@ -4221,10 +4516,16 @@ split	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src
 split	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/mod.rs	/^mod split;$/;"	n
 split	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/split.rs	/^pub(crate) fn split(stream: &mut UnixStream) -> (ReadHalf<'_>, WriteHalf<'_>) {$/;"	f
 split	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/stream.rs	/^    pub fn split<'a>(&'a mut self) -> (ReadHalf<'a>, WriteHalf<'a>) {$/;"	P	implementation:UnixStream
+split_first	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn split_first(&self) -> (Option<char>, Self) {$/;"	P	implementation:Input
 split_owned	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/tcp/mod.rs	/^mod split_owned;$/;"	n
 split_owned	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/tcp/split_owned.rs	/^pub(crate) fn split_owned(stream: TcpStream) -> (OwnedReadHalf, OwnedWriteHalf) {$/;"	f
 split_owned	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/mod.rs	/^mod split_owned;$/;"	n
 split_owned	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/split_owned.rs	/^pub(crate) fn split_owned(stream: UnixStream) -> (OwnedReadHalf, OwnedWriteHalf) {$/;"	f
+split_prefix	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn split_prefix(self, input: &mut Input) -> bool {$/;"	P	implementation:F
+split_prefix	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn split_prefix(self, input: &mut Input) -> bool {$/;"	P	implementation:char
+split_prefix	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn split_prefix(self, input: &mut Input) -> bool {$/;"	P	implementation:str
+split_prefix	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn split_prefix(self, input: &mut Input) -> bool;$/;"	P	interface:Pattern
+split_prefix	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn split_prefix<P: Pattern>(&self, p: P) -> Option<Self> {$/;"	P	implementation:Input
 stack_size	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/blocking/pool.rs	/^    stack_size: Option<usize>,$/;"	m	struct:Inner
 stage	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/core.rs	/^    stage: UnsafeCell<Stage<T>>,$/;"	m	struct:CoreStage
 start_index	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/block.rs	/^    start_index: usize,$/;"	m	struct:Block
@@ -4239,6 +4540,9 @@ start_seek	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.
 start_seek	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/buf_stream.rs	/^    fn start_seek(self: Pin<&mut Self>, position: SeekFrom) -> io::Result<()> {$/;"	P	implementation:BufStream
 start_seek	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/buf_writer.rs	/^    fn start_seek(self: Pin<&mut Self>, pos: SeekFrom) -> io::Result<()> {$/;"	P	implementation:BufWriter
 start_time	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/mod.rs	/^    start_time: Instant,$/;"	m	struct:ClockTime
+starts_with	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn starts_with<P: Pattern>(&self, p: P) -> bool {$/;"	P	implementation:Input
+starts_with_windows_drive_letter	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^fn starts_with_windows_drive_letter(s: &str) -> bool {$/;"	f
+starts_with_windows_drive_letter_segment	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^fn starts_with_windows_drive_letter_segment(input: &Input<'_>) -> bool {$/;"	f
 state	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/file.rs	/^    state: State,$/;"	m	struct:Inner
 state	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/blocking.rs	/^    state: State<T>,$/;"	m	struct:Blocking
 state	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/park/thread.rs	/^    state: AtomicUsize,$/;"	m	struct:Inner
@@ -4294,6 +4598,7 @@ storage	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/s
 storage	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/registry.rs	/^    storage: S,$/;"	m	struct:Registry
 store_output	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/core.rs	/^    pub(super) fn store_output(&self, output: super::Result<T::Output>) {$/;"	P	implementation:CoreStage
 str	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/tests/loom_broadcast.rs	/^        let (tx, mut rx1) = broadcast::channel::<Arc<&'static str>>(16);$/;"	v	function:broadcast_two
+str	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^impl<'a> Pattern for &'a str {$/;"	c
 stream	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/split.rs	/^    stream: UnsafeCell<T>,$/;"	m	struct:Inner
 stream	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/lib.rs	/^pub mod stream {}$/;"	n
 stream	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/tcp/mod.rs	/^pub(crate) mod stream;$/;"	n
@@ -4327,6 +4632,8 @@ sync_data_ordered_after_write	/home/cht/.cargo/registry/src/github.com-1ecc6299d
 sync_scope	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/task/task_local.rs	/^    pub fn sync_scope<F, R>(&'static self, value: T, f: F) -> R$/;"	P	implementation:LocalKey
 sync_when	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/entry.rs	/^    pub(super) unsafe fn sync_when(&self) -> u64 {$/;"	P	implementation:TimerHandle
 sync_when	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/entry.rs	/^    pub(super) unsafe fn sync_when(&self) -> u64 {$/;"	P	implementation:TimerShared
+syntax_violation_callback	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn syntax_violation_callback(mut self, new: Option<&'a dyn Fn(SyntaxViolation)>) -> Self/;"	P	implementation:ParseOptions
+syntax_violation_enum	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^macro_rules! syntax_violation_enum {$/;"	M
 sys	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/platform.rs	/^mod sys {$/;"	n
 sys	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/loom/mocked.rs	/^pub(crate) mod sys {$/;"	n
 sys	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/loom/std/mod.rs	/^pub(crate) mod sys {$/;"	n
@@ -4346,11 +4653,13 @@ take	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/
 take	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/atomic_cell.rs	/^    pub(super) fn take(&self) -> Option<Box<T>> {$/;"	P	implementation:AtomicCell
 take	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/once_cell.rs	/^    pub fn take(&mut self) -> Option<T> {$/;"	P	implementation:OnceCell
 take	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/vec_deque_cell.rs	/^    pub(crate) fn take(&self) -> VecDeque<T> {$/;"	P	implementation:VecDequeCell
+take_after_path	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn take_after_path(&mut self) -> String {$/;"	P	implementation:Url
 take_entries	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/wheel/mod.rs	/^    fn take_entries(&mut self, expiration: &Expiration) -> EntryList {$/;"	P	implementation:Wheel
 take_error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/udp.rs	/^    pub fn take_error(&self) -> io::Result<Option<io::Error>> {$/;"	P	implementation:UdpSocket
 take_error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/datagram/socket.rs	/^    pub fn take_error(&self) -> io::Result<Option<io::Error>> {$/;"	P	implementation:UnixDatagram
 take_error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/listener.rs	/^    pub fn take_error(&self) -> io::Result<Option<io::Error>> {$/;"	P	implementation:UnixListener
 take_error	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/stream.rs	/^    pub fn take_error(&self) -> io::Result<Option<io::Error>> {$/;"	P	implementation:UnixStream
+take_fragment	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn take_fragment(&mut self) -> Option<String> {$/;"	P	implementation:Url
 take_inner	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/async_fd.rs	/^    fn take_inner(&mut self) -> Option<T> {$/;"	P	implementation:AsyncFd
 take_inner	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/basic_scheduler.rs	/^    fn take_inner(&self) -> Option<InnerGuard<'_, P>> {$/;"	P	implementation:BasicScheduler
 take_output	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/future/maybe_done.rs	/^    pub fn take_output(self: Pin<&mut Self>) -> Option<Fut::Output> {$/;"	P	implementation:MaybeDone
@@ -4440,8 +4749,10 @@ time_source	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11
 timeout	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/mod.rs	/^mod timeout;$/;"	n
 timeout	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/timeout.rs	/^pub fn timeout<T>(duration: Duration, future: T) -> Timeout<T>$/;"	f
 timeout_at	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/timeout.rs	/^pub fn timeout_at<T>(deadline: Instant, future: T) -> Timeout<T>$/;"	f
+to_file_path	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn to_file_path(&self) -> Result<PathBuf, ()> {$/;"	P	implementation:Url
 to_mio	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/driver/interest.rs	/^    pub(crate) const fn to_mio(self) -> mio::Interest {$/;"	P	implementation:Interest
 to_mio	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/tcp/stream.rs	/^    fn to_mio(&self) -> mio::net::TcpSocket {$/;"	P	implementation:TcpStream
+to_owned	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^    pub fn to_owned(&self) -> Host<String> {$/;"	P	implementation:Host
 to_raw	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/atomic_cell.rs	/^fn to_raw<T>(data: Option<Box<T>>) -> *mut T {$/;"	f
 to_socket_addrs	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/addr.rs	/^        fn to_socket_addrs(&self, internal: Internal) -> Self::Future;$/;"	P	interface:sealed::ToSocketAddrsPriv
 to_socket_addrs	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/addr.rs	/^    fn to_socket_addrs(&self, _: sealed::Internal) -> Self::Future {$/;"	P	implementation:SocketAddr
@@ -4449,6 +4760,7 @@ to_socket_addrs	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-
 to_socket_addrs	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/addr.rs	/^    fn to_socket_addrs(&self, _: sealed::Internal) -> Self::Future {$/;"	P	implementation:SocketAddrV6
 to_socket_addrs	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/addr.rs	/^    fn to_socket_addrs(&self, _: sealed::Internal) -> Self::Future {$/;"	P	implementation:u16
 to_socket_addrs	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/addr.rs	/^    fn to_socket_addrs(&self, _: sealed::Internal) -> Self::Future {$/;"	f
+to_u32	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^pub fn to_u32(i: usize) -> ParseResult<u32> {$/;"	f
 total_kills	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/unix/reap.rs	/^        total_kills: usize,$/;"	m	struct:test::MockWait
 total_polls	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/unix/reap.rs	/^        total_polls: usize,$/;"	m	struct:test::MockStream
 total_waits	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/unix/orphan.rs	/^        total_waits: Rc<Cell<usize>>,$/;"	m	struct:test::MockWait
@@ -4473,6 +4785,8 @@ transition_worker_from_searching	/home/cht/.cargo/registry/src/github.com-1ecc62
 transition_worker_from_searching	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/worker.rs	/^    fn transition_worker_from_searching(&self) {$/;"	P	implementation:Shared
 transition_worker_to_parked	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/idle.rs	/^    pub(super) fn transition_worker_to_parked(&self, worker: usize, is_searching: bool) -> bool /;"	P	implementation:Idle
 transition_worker_to_searching	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/idle.rs	/^    pub(super) fn transition_worker_to_searching(&self) -> bool {$/;"	P	implementation:Idle
+trim	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^fn trim(s: &str) -> &str {$/;"	f
+trim_tab_and_newlines	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn trim_tab_and_newlines($/;"	P	implementation:Input
 true_when	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/entry.rs	/^    pub(super) fn true_when(&self) -> u64 {$/;"	P	implementation:TimerShared
 true_when	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/time/driver/entry.rs	/^    true_when: AtomicU64,$/;"	m	struct:TimerSharedPadded
 truncate	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/open_options.rs	/^    pub fn truncate(&mut self, truncate: bool) -> &mut OpenOptions {$/;"	P	implementation:OpenOptions
@@ -4494,6 +4808,7 @@ try_from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/
 try_from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/datagram/socket.rs	/^    fn try_from(stream: std::os::unix::net::UnixDatagram) -> Result<Self, Self::Error> {$/;"	P	implementation:UnixDatagram
 try_from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/listener.rs	/^    fn try_from(stream: std::os::unix::net::UnixListener) -> io::Result<Self> {$/;"	P	implementation:UnixListener
 try_from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/net/unix/stream.rs	/^    fn try_from(stream: net::UnixStream) -> io::Result<Self> {$/;"	P	implementation:UnixStream
+try_from	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    fn try_from(s: &'a str) -> Result<Self, Self::Error> {$/;"	P	implementation:Url
 try_into	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/mod.rs	/^    fn try_into(self) -> Result<Stdio, Self::Error> {$/;"	P	implementation:ChildStderr
 try_into	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/mod.rs	/^    fn try_into(self) -> Result<Stdio, Self::Error> {$/;"	P	implementation:ChildStdin
 try_into	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/mod.rs	/^    fn try_into(self) -> Result<Stdio, Self::Error> {$/;"	P	implementation:ChildStdout
@@ -4605,6 +4920,7 @@ unbounded_channel	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/toki
 unconstrained	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/coop.rs	/^    const fn unconstrained() -> Budget {$/;"	P	implementation:Budget
 unconstrained	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/task/unconstrained.rs	/^pub fn unconstrained<F>(inner: F) -> Unconstrained<F> {$/;"	f
 unfilled_mut	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/read_buf.rs	/^    pub unsafe fn unfilled_mut(&mut self) -> &mut [MaybeUninit<u8>] {$/;"	P	implementation:ReadBuf
+unicode_serialization	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs	/^    pub fn unicode_serialization(&self) -> String {$/;"	P	implementation:Origin
 uninit	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/read_buf.rs	/^    pub fn uninit(buf: &'a mut [MaybeUninit<u8>]) -> ReadBuf<'a> {$/;"	P	implementation:ReadBuf
 uninitialized	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/block.rs	/^    unsafe fn uninitialized() -> Values<T> {$/;"	P	implementation:Values
 uninterruptibly	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/blocking.rs	/^macro_rules! uninterruptibly {$/;"	M
@@ -4657,10 +4973,16 @@ unset_waker	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11
 unsplit	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/split.rs	/^    pub fn unsplit(self, wr: WriteHalf<T>) -> T {$/;"	P	implementation:ReadHalf
 unsync_load	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/loom/std/atomic_u16.rs	/^    pub(crate) unsafe fn unsync_load(&self) -> u16 {$/;"	P	implementation:AtomicU16
 unsync_load	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/loom/std/atomic_usize.rs	/^    pub(crate) unsafe fn unsync_load(&self) -> usize {$/;"	P	implementation:AtomicUsize
+url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    url: Option<&'a mut Url>,$/;"	m	struct:UrlQuery
+url	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/path_segments.rs	/^    url: &'a mut Url,$/;"	m	struct:PathSegmentsMut
+url_origin	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/origin.rs	/^pub fn url_origin(url: &Url) -> Origin {$/;"	f
 used	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    used: AtomicUsize,$/;"	m	struct:Page
 used	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/slab.rs	/^    used: usize,$/;"	m	struct:Slots
 user_defined1	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/unix.rs	/^    pub fn user_defined1() -> Self {$/;"	P	implementation:SignalKind
 user_defined2	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/signal/unix.rs	/^    pub fn user_defined2() -> Self {$/;"	P	implementation:SignalKind
+username	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    pub fn username(&self) -> &str {$/;"	P	implementation:Url
+username	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/quirks.rs	/^pub fn username(url: &Url) -> &str {$/;"	f
+username_end	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    username_end: u32, \/\/ Before ':' (if a password is given) or '@' (if not)$/;"	m	struct:Url
 usize	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/thread_pool/idle.rs	/^impl From<State> for usize {$/;"	c
 usize	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/mpsc/chan.rs	/^impl Semaphore for (crate::sync::batch_semaphore::Semaphore, usize) {$/;"	c
 util	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/lib.rs	/^mod util;$/;"	n
@@ -4686,6 +5008,9 @@ variant	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/s
 vec	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/util/vec_with_initialized.rs	/^    vec: V,$/;"	m	struct:VecWithInitialized
 version	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/watch.rs	/^        pub(super) fn version(self) -> Version {$/;"	P	implementation:state::StateSnapshot
 version	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/watch.rs	/^    version: Version,$/;"	m	struct:Receiver
+violation_fn	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^    violation_fn: Option<&'a dyn Fn(SyntaxViolation)>,$/;"	m	struct:ParseOptions
+violation_fn	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub violation_fn: Option<&'a dyn Fn(SyntaxViolation)>,$/;"	m	struct:Parser
+visit_str	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/lib.rs	/^            fn visit_str<E>(self, s: &str) -> Result<Self::Value, E>$/;"	P	implementation:Url::deserialize::UrlVisitor
 vtable	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/raw.rs	/^pub(super) fn vtable<T: Future, S: Schedule>() -> &'static Vtable {$/;"	f
 wait	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/loom/std/parking_lot.rs	/^    pub(crate) fn wait<'a, T>($/;"	P	implementation:Condvar
 wait	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/mod.rs	/^    pub async fn wait(&mut self) -> io::Result<ExitStatus> {$/;"	P	implementation:Child
@@ -4773,10 +5098,12 @@ with_err	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/
 with_inner	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/list.rs	/^    fn with_inner<F, T>(&self, f: F) -> T$/;"	P	implementation:LocalOwnedTasks
 with_inner	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/util/vec_deque_cell.rs	/^    unsafe fn with_inner<F, R>(&self, f: F) -> R$/;"	P	implementation:VecDequeCell
 with_interest	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/async_fd.rs	/^    pub fn with_interest(inner: T, interest: Interest) -> io::Result<Self>$/;"	P	implementation:AsyncFd
+with_log	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    pub fn with_log(original_input: &'i str, vfn: Option<&dyn Fn(SyntaxViolation)>) -> Self {$/;"	P	implementation:Input
 with_max_readers	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/rwlock.rs	/^    pub fn with_max_readers(value: T, max_reads: u32) -> RwLock<T>$/;"	P	implementation:RwLock
 with_mut	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/loom/std/atomic_usize.rs	/^    pub(crate) fn with_mut<R>(&mut self, f: impl FnOnce(&mut usize) -> R) -> R {$/;"	P	implementation:AtomicUsize
 with_mut	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/loom/std/unsafe_cell.rs	/^    pub(crate) fn with_mut<R>(&self, f: impl FnOnce(*mut T) -> R) -> R {$/;"	P	implementation:UnsafeCell
 with_mut	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/runtime/task/core.rs	/^    pub(super) fn with_mut<R>(&self, f: impl FnOnce(*mut Stage<T>) -> R) -> R {$/;"	P	implementation:CoreStage
+with_query_and_fragment	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/parser.rs	/^    fn with_query_and_fragment($/;"	P	implementation:Parser
 with_result	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/process/mod.rs	/^        fn with_result(result: Poll<Result<(), ()>>) -> Self {$/;"	P	implementation:test::Mock
 with_task	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/oneshot.rs	/^    unsafe fn with_task<F, R>(&self, f: F) -> R$/;"	P	implementation:Task
 with_task	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/task/task_local.rs	/^    fn with_task<F2: FnOnce(Pin<&mut F>) -> R, R>(self: Pin<&mut Self>, f: F2) -> R {$/;"	P	implementation:TaskLocalFuture
@@ -4816,6 +5143,7 @@ write_buf	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0
 write_guard	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/rwlock.rs	/^pub(crate) mod write_guard;$/;"	n
 write_guard_mapped	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/rwlock.rs	/^pub(crate) mod write_guard_mapped;$/;"	n
 write_history	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/io/stdio_common.rs	/^        write_history: Vec<usize>,$/;"	m	struct:tests::LoggingMockWriter
+write_ipv6	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.2/src/host.rs	/^fn write_ipv6(addr: &Ipv6Addr, f: &mut Formatter<'_>) -> fmt::Result {$/;"	f
 write_owned	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/sync/rwlock.rs	/^    pub async fn write_owned(self: Arc<Self>) -> OwnedRwLockWriteGuard<T> {$/;"	P	implementation:RwLock
 write_read_flush_err	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/file/tests.rs	/^fn write_read_flush_err() {$/;"	f
 write_read_write_err	/home/cht/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-1.11.0/src/fs/file/tests.rs	/^fn write_read_write_err() {$/;"	f
