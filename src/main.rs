@@ -13,24 +13,23 @@ async fn main() -> io::Result<()> {
         let (client, addr) = listener.accept().await?;
         println!("address : {}", addr);
         //let (eread, ewrite)= client.into_split();
-
         let (mut eread, mut ewrite) = client.into_split();
-        let mut recept = [0; 1024];
+        let mut recept = [0; 16384];
 
         //println!("hello");
         eread.read(&mut recept).await?;
-        //println!("Request: {}", String::from_utf8_lossy(&recept[..]));
         let input = String::from_utf8_lossy(&recept[..]);
         let mut vec = input.lines();
         let header = vec.next().unwrap();
         println!("{}", header);
         let mut header_split = header.split(' ');
         let func = header_split.next().unwrap().to_string();
-        let url = header_split
-            .next()
-            .unwrap_or_else(|| {
-                panic!("{}", input);
-            })
+        let url_may = header_split.next();
+        if url_may == None {
+            continue;
+        }
+        let url = url_may
+            .unwrap()
             .to_string();
         //let mut adress: &str = "";
         let url1 = Url::parse(&url).unwrap();
@@ -57,7 +56,7 @@ async fn main() -> io::Result<()> {
             let rt = tokio::runtime::Runtime::new().unwrap();
             rt.block_on(async move {
                 match tokio::time::timeout(
-                    std::time::Duration::from_millis(50),
+                    std::time::Duration::from_millis(40),
                     TcpStream::connect(&adress),
                 )
                 .await
