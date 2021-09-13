@@ -50,33 +50,45 @@ async fn main() -> io::Result<()> {
             //    contents.len(),
             //    contents
             //);
+            //超时直接返回error
+            match tokio::time::timeout(
+                std::time::Duration::from_secs(10),
+                TcpStream::connect(&adress)
+            ).await{
+                Ok(message) => {
+                    match message
+                    {
+                        Ok(server)=>{
+                            let (mut oread, mut owrite) = server.into_split();
+                            //let mut turn = [0; 1000000];
+                            if func == "CONNECT"{
+                                // https 的话要返回串
+                                ewrite.write("HTTP/1.1 200 Connection established\r\n\r\n".as_bytes()).await?;
+                            }else {
+                                owrite.write(&recept).await?;
+                            }
 
-            let server = TcpStream::connect(&adress).await?;
-            println!("test");
-            let (mut oread, mut owrite) = server.into_split();
-            //let mut turn = [0; 1000000];
-            if func == "CONNECT"{
-                // https 的话要返回串
-                ewrite.write("HTTP/1.1 200 Connection established\r\n\r\n".as_bytes()).await?;
-            }else {
-                owrite.write(&recept).await?;
-            }
+                            let s2c = tokio::spawn(async move {
+                                io::copy(&mut oread, &mut ewrite).await?;
+                                //server.read(&mut turn).await?;
+                                //println!("Retrun: {}", String::from_utf8_lossy(&turn[..]));
+                                //ewrite.write(&turn).await?;
+                                ewrite.flush().await
+                            });
+                            let c2s = tokio::spawn(async move{
+                                io::copy(&mut eread,&mut owrite).await?;
+                                owrite.flush().await
+                            });
+                            select! {
+                                _  = c2s => println!("c2s done"),
+                                _  = s2c => println!("s2c done"),
 
-            let s2c = tokio::spawn(async move {
-                io::copy(&mut oread, &mut ewrite).await?;
-                //server.read(&mut turn).await?;
-                //println!("Retrun: {}", String::from_utf8_lossy(&turn[..]));
-                //ewrite.write(&turn).await?;
-                ewrite.flush().await
-            });
-            let c2s = tokio::spawn(async move{
-                io::copy(&mut eread,&mut owrite).await?;
-                owrite.flush().await
-            });
-            select! {
-                _  = c2s => println!("c2s done"),
-                _  = s2c => println!("s2c done"),
-
+                            }
+                        },
+                        Err(_)=> panic!("error"),
+                    };
+                },
+                Err(_) => println!("timeout,{}",adress),
             }
             Ok::<(),io::Error>(())
         });
