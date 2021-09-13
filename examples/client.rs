@@ -1,9 +1,6 @@
 use tokio::{
     io,
-    net::{
-        TcpListener,
-        TcpStream,
-    },
+    net::{TcpListener, TcpStream},
     select,
 };
 async fn proxy(client: &str, server: &str) -> io::Result<()> {
@@ -15,12 +12,8 @@ async fn proxy(client: &str, server: &str) -> io::Result<()> {
         let (mut eread, mut ewrite) = client.into_split();
         let (mut oread, mut owrite) = server.into_split();
 
-        let e2o = tokio::spawn(async move { 
-            io::copy(&mut eread, &mut owrite).await
-        });
-        let o2e = tokio::spawn(async move { 
-            io::copy(&mut oread, &mut ewrite).await 
-        });
+        let e2o = tokio::spawn(async move { io::copy(&mut eread, &mut owrite).await });
+        let o2e = tokio::spawn(async move { io::copy(&mut oread, &mut ewrite).await });
 
         // let e2o = io::copy(&mut eread, &mut owrite);
         // let o2e = io::copy(&mut oread, &mut ewrite);
