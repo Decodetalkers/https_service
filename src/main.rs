@@ -1,4 +1,3 @@
-use std::thread;
 use tokio::{
     io::{self, AsyncReadExt, AsyncWriteExt},
     net::TcpListener,
@@ -13,6 +12,7 @@ async fn main() -> io::Result<()> {
         let (client, addr) = listener.accept().await?;
         println!("address : {}", addr);
         //let (eread, ewrite)= client.into_split();
+        tokio::spawn(async {
         let (mut eread, mut ewrite) = client.into_split();
         let mut recept = [0; 16384];
 
@@ -26,7 +26,7 @@ async fn main() -> io::Result<()> {
         let func = header_split.next().unwrap().to_string();
         let url_may = header_split.next();
         if url_may == None {
-            continue;
+            return  Ok::<(), io::Error>(());
         }
         let url = url_may
             .unwrap()
@@ -52,11 +52,8 @@ async fn main() -> io::Result<()> {
         //    contents
         //);
         //超时直接返回error
-        thread::spawn(move || {
-            let rt = tokio::runtime::Runtime::new().unwrap();
-            rt.block_on(async move {
                 match tokio::time::timeout(
-                    std::time::Duration::from_millis(40),
+                    std::time::Duration::from_secs(1),
                     TcpStream::connect(&adress),
                 )
                 .await
@@ -101,9 +98,8 @@ async fn main() -> io::Result<()> {
                     Err(_) => println!("timeout,{}", adress),
                 }
 
-                Ok::<(), io::Error>(())
-            })
-            .expect("ssss");
+        Ok::<(), io::Error>(())
         });
+
     }
 }
