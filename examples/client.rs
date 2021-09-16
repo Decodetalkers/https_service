@@ -8,8 +8,7 @@ async fn proxy(client: &str, server: &str) -> io::Result<()> {
     loop {
         let (client, _) = listener.accept().await?;
         let server = TcpStream::connect(server).await?;
-        tokio::spawn(async move{
-
+        tokio::spawn(async move {
             let (mut eread, mut ewrite) = client.into_split();
             let (mut oread, mut owrite) = server.into_split();
 
